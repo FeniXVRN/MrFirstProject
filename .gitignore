@@ -41,10 +41,6 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
-Saved
-.Saved
-/Saved
-\Saved
-Saved/
-Saved\
-Saved/*
+
+Saved/Logs/*
+Saved/Logs/MrFirstProject.log
