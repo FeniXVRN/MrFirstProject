@@ -1,161 +1,1062 @@
-﻿[2015.09.01-18.10.57:922][  0]Log file open, 09/01/15 21:10:57
-[2015.09.01-18.10.57:922][  0]LogInit:Display: Running engine for game: MrFirstProject
-[2015.09.01-18.10.57:922][  0]LogInit:Display: RandInit(-434937700) SRandInit(-434937700).
-[2015.09.01-18.10.57:922][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2015.09.01-18.10.57:922][  0]LogStats: Stats thread started at 0.078946
-[2015.09.01-18.10.57:922][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
-[2015.09.01-18.10.57:922][  0]LogInit: API Version: 2672455
-[2015.09.01-18.10.57:922][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
-[2015.09.01-18.10.57:922][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.09.01-18.10.57:922][  0]LogInit: Build Configuration: Development
-[2015.09.01-18.10.57:922][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2015.09.01-18.10.57:922][  0]LogInit: Command line: 
-[2015.09.01-18.10.57:922][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
-[2015.09.01-18.10.57:922][  0]LogInit: Rocket: 1
-[2015.09.01-18.10.57:929][  0]LogInit: Using libcurl 7.41.0
-[2015.09.01-18.10.57:929][  0]LogInit:  - built for x86_64-pc-win32
-[2015.09.01-18.10.57:929][  0]LogInit:  - supports SSL with WinSSL
-[2015.09.01-18.10.57:929][  0]LogInit:  - other features:
-[2015.09.01-18.10.57:929][  0]LogInit:      CURL_VERSION_SSL
-[2015.09.01-18.10.57:929][  0]LogInit:      CURL_VERSION_IPV6
-[2015.09.01-18.10.57:929][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.09.01-18.10.57:929][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.09.01-18.10.57:929][  0]LogInit:      CURL_VERSION_IDN
-[2015.09.01-18.10.57:929][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.09.01-18.10.57:929][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.09.01-18.10.57:929][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.09.01-18.10.57:929][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.09.01-18.10.57:929][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.09.01-18.10.57:935][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.09.01-18.10.57:941][  0]LogInit: Object subsystem initialized
-[2015.09.01-18.10.57:942][  0]LogInit: Selected Device Profile: [Windows]
-[2015.09.01-18.10.57:942][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.09.01-18.10.57:949][  0]LogInit: Computer: FENIX-PC
-[2015.09.01-18.10.57:949][  0]LogInit: User: FeniX
-[2015.09.01-18.10.57:949][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.09.01-18.10.57:949][  0]LogInit: High frequency timer resolution =3.287333 MHz
-[2015.09.01-18.10.57:949][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2015.09.01-18.10.57:949][  0]LogMemory: Platform Memory Stats for Windows
-[2015.09.01-18.10.57:949][  0]LogMemory: Process Physical Memory: 52.21 MB used, 52.21 MB peak
-[2015.09.01-18.10.57:949][  0]LogMemory: Process Virtual Memory: 57.95 MB used, 57.95 MB peak
-[2015.09.01-18.10.57:949][  0]LogMemory: Physical Memory: 4054.32 MB used, 8135.00 MB total
-[2015.09.01-18.10.57:949][  0]LogMemory: Virtual Memory: 352.38 MB used, 134217728.00 MB total
-[2015.09.01-18.10.57:987][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
-[2015.09.01-18.10.58:649][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
-[2015.09.01-18.10.58:649][  0]LogD3D11RHI: Adapter has 3992MB of dedicated video memory, 0MB of dedicated system memory, and 4067MB of shared system memory, 1 output[s]
-[2015.09.01-18.10.58:650][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.09.01-18.10.58:650][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.09.01-18.10.58:650][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.09.01-18.10.58:652][  0]LogD3D11RHI: !Direct3DDevice
-[2015.09.01-18.10.58:652][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.09.01-18.10.58:661][  0]LogD3D11RHI: Async texture creation enabled
-[2015.09.01-18.10.58:676][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (E:/Unreal Engine/Projects/MrFirstProject/Intermediate/Shaders/WorkingDirectory/5808/).
-[2015.09.01-18.10.58:676][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'E:/Unreal Engine/Projects/MrFirstProject/Intermediate/Shaders/tmp/106D464F4BF6C82F1937F3955911E51E/'.
-[2015.09.01-18.10.58:676][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.09.01-18.10.59:725][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2015.09.01-18.10.59:730][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.09.01-18.10.59:735][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.09.01-18.10.59:739][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.09.01-18.10.59:744][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.09.01-18.10.59:747][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.09.01-18.10.59:750][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.09.01-18.10.59:753][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.09.01-18.10.59:756][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.09.01-18.10.59:759][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.09.01-18.10.59:762][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.09.01-18.10.59:765][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.09.01-18.10.59:765][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2015.09.01-18.10.59:781][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.09.01-18.10.59:785][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.09.01-18.10.59:788][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.09.01-18.10.59:791][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.09.01-18.10.59:791][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.09.01-18.10.59:856][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.09.01-18.10.59:895][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/FeniX/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.09.01-18.10.59:895][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/FeniX/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2015.09.01-18.10.59:895][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal Engine/Projects/MrFirstProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.09.01-18.10.59:895][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.09.01-18.10.59:895][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal Engine/Projects/MrFirstProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.09.01-18.10.59:895][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.09.01-18.11.00:013][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.09.01-18.11.00:024][  0]LogDerivedDataCache: Using Local data cache path C:/Users/FeniX/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.09.01-18.11.00:159][  0]LogInit: Selected Device Profile: [Windows]
-[2015.09.01-18.11.00:162][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.09.01-18.11.00:260][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.09.01-18.11.00:260][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.09.01-18.11.00:478][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.09.01-18.11.01:035][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.09.01-18.11.01:177][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
-[2015.09.01-18.11.01:313][  0]SourceControl: Info Source control is disabled
-[2015.09.01-18.11.01:321][  0]SourceControl: Info Source control is disabled
-[2015.09.01-18.11.01:328][  0]SourceControl: Info Source control is disabled
-[2015.09.01-18.11.01:335][  0]SourceControl: Info Source control is disabled
-[2015.09.01-18.11.01:452][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.09.01-18.11.01:510][  0]LogObj: 28361 objects as part of root set at end of initial load.
-[2015.09.01-18.11.01:510][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
-[2015.09.01-18.11.01:561][  0]LogEngine: Initializing Engine...
-[2015.09.01-18.11.01:563][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
-[2015.09.01-18.11.01:563][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2015.09.01-18.11.01:672][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.09.01-18.11.01:678][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.09.01-18.11.01:686][  0]LogInit: FAudioDevice initialized.
-[2015.09.01-18.11.01:704][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/FeniX/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.09.01-18.11.01:708][  0]LogInit: Texture streaming: Enabled
-[2015.09.01-18.11.01:713][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.09.01-18.11.01:713][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
-[2015.09.01-18.11.01:713][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 5ae0703142a457eb4d3a3eb08ce37fb3|d32e66fa61e14e30b1d599acd0ee14b5|322b85ee-a709-4918-a5c8-974ff3a9213e
-[2015.09.01-18.11.01:713][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.09.01-18.11.01:721][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.01-18.11.01:730][  0]LogInit: Transaction tracking system initialized
-[2015.09.01-18.11.01:766][  0]BlueprintLog: New page: Editor Load
-[2015.09.01-18.11.01:837][  0]LocalizationService: Info Localization service is disabled
-[2015.09.01-18.11.01:899][  0]LogConsoleResponse:Display: 
-[2015.09.01-18.11.02:008][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Engine/Projects/MrFirstProject/Content/' took 0.02s
-[2015.09.01-18.11.02:008][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.09.01-18.11.02:051][  0]SourceControl: Info Source control is disabled
-[2015.09.01-18.11.02:051][  0]Cmd: MAP LOAD FILE="E:/Unreal Engine/Projects/MrFirstProject/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.09.01-18.11.02:051][  0]LightingResults: New page: Lighting Build
-[2015.09.01-18.11.02:054][  0]MapCheck: New page: Map Check
-[2015.09.01-18.11.02:054][  0]LightingResults: New page: Lighting Build
-[2015.09.01-18.11.02:062][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B661F19DA0
-[2015.09.01-18.11.02:460][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2015.09.01-18.11.02:589][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.09.01-18.11.02:603][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.09.01-18.11.02:635][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.642ms to complete.
-[2015.09.01-18.11.02:635][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.584
-[2015.09.01-18.11.03:192][  0]LogCollectionManager: Loaded 0 collections in 0.001668 seconds
-[2015.09.01-18.11.03:267][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Engine/Projects/MrFirstProject/Saved/Collections/' took 0.01s
-[2015.09.01-18.11.03:267][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Engine/Projects/MrFirstProject/Content/Developers/FeniX/Collections/' took 0.01s
-[2015.09.01-18.11.03:267][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Engine/Projects/MrFirstProject/Content/Collections/' took 0.01s
-[2015.09.01-18.11.03:267][  0]LogContentBrowser: Native class hierarchy populated in 0.0198 seconds. Added 1867 classes and 333 folders.
-[2015.09.01-18.11.03:347][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2015.09.01-18.11.03:467][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2015.09.01-18.11.04:759][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2015.09.01-18.11.04:794][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2015.09.01-18.11.05:343][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.09.01-18.11.05:448][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.09.01-18.11.05:504][  0]LogLoad: Full Startup: 8.09 seconds (BP compile: 0.11 seconds)
-[2015.09.01-18.11.05:832][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2015.09.01-18.11.06:261][  0]LogRenderer: Reallocating scene render targets to support 1168x600 (Frame:2).
-[2015.09.01-18.11.06:531][  3]LogAssetRegistry: Asset discovery search completed in 5.3657 seconds
-[2015.09.01-18.11.06:531][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2015.09.01-18.11.06:531][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
-[2015.09.01-18.11.26:605][381]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (LeftEdge)
-[2015.09.01-18.11.39:171][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/FirstMap" FILE="E:/Unreal Engine/Projects/MrFirstProject/Content/2DSideScrollerBP/FirstMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.09.01-18.11.39:244][532]LogSavePackage: Save=50.586296ms
-[2015.09.01-18.11.39:244][532]LogSavePackage: Moving 'E:/Unreal Engine/Projects/MrFirstProject/Saved/FirstMap3F31B590472EE60520E433ADFBEE1FC7.tmp' to 'E:/Unreal Engine/Projects/MrFirstProject/Content/2DSideScrollerBP/FirstMap.umap'
-[2015.09.01-18.11.39:254][532]LogSavePackage: Total save time: 60.623001ms
-[2015.09.01-18.11.39:254][532]LogSavePackage:Warning: Finished SavePackage E:/Unreal Engine/Projects/MrFirstProject/Content/2DSideScrollerBP/FirstMap.umap
-[2015.09.01-18.11.39:264][532]LogFileHelpers: Saving map 'FirstMap' took 0.127
-[2015.09.01-18.11.39:269][532]Cmd: MAP LOAD FILE="E:/Unreal Engine/Projects/MrFirstProject/Content/2DSideScrollerBP/FirstMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.09.01-18.11.39:269][532]LightingResults: New page: Lighting Build
-[2015.09.01-18.11.39:305][532]LoadErrors: New page: Loading map: FirstMap.umap
-[2015.09.01-18.11.39:357][532]MapCheck: New page: Map Check
-[2015.09.01-18.11.39:357][532]LightingResults: New page: Lighting Build
-[2015.09.01-18.11.39:368][532]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B651B57A60
-[2015.09.01-18.11.39:370][532]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.09.01-18.11.39:371][532]LogAIModule: Creating AISystem for world FirstMap
-[2015.09.01-18.11.39:413][532]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.09.01-18.11.39:453][532]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.887ms to complete.
-[2015.09.01-18.11.39:453][532]LogFileHelpers: Loading map 'FirstMap' took 0.187
-[2015.09.01-18.11.47:774][418]LogLinker:Warning: Ca
+﻿[2015.09.01-18.58.39:533][  0]Log file open, 09/01/15 21:58:39
+[2015.09.01-18.58.39:533][  0]LogInit:Display: Running engine for game: MrFirstProject
+[2015.09.01-18.58.39:533][  0]LogInit:Display: RandInit(382302125) SRandInit(382302125).
+[2015.09.01-18.58.39:533][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.01-18.58.39:533][  0]LogStats: Stats thread started at 0.075554
+[2015.09.01-18.58.39:533][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.01-18.58.39:533][  0]LogInit: API Version: 2672455
+[2015.09.01-18.58.39:533][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.09.01-18.58.39:533][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.01-18.58.39:533][  0]LogInit: Build Configuration: Development
+[2015.09.01-18.58.39:533][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.01-18.58.39:533][  0]LogInit: Command line: 
+[2015.09.01-18.58.39:533][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.01-18.58.39:533][  0]LogInit: Rocket: 1
+[2015.09.01-18.58.39:540][  0]LogInit: Using libcurl 7.41.0
+[2015.09.01-18.58.39:540][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.01-18.58.39:540][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.01-18.58.39:540][  0]LogInit:  - other features:
+[2015.09.01-18.58.39:540][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.01-18.58.39:540][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.01-18.58.39:540][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.01-18.58.39:540][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.01-18.58.39:540][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.01-18.58.39:540][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.01-18.58.39:540][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.01-18.58.39:540][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.01-18.58.39:540][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.01-18.58.39:540][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.01-18.58.39:546][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.01-18.58.39:552][  0]LogInit: Object subsystem initialized
+[2015.09.01-18.58.39:553][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.01-18.58.39:553][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.01-18.58.39:560][  0]LogInit: Computer: FENIX-PC
+[2015.09.01-18.58.39:560][  0]LogInit: User: FeniX
+[2015.09.01-18.58.39:560][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.01-18.58.39:560][  0]LogInit: High frequency timer resolution =3.287333 MHz
+[2015.09.01-18.58.39:560][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.09.01-18.58.39:560][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.01-18.58.39:560][  0]LogMemory: Process Physical Memory: 52.27 MB used, 52.27 MB peak
+[2015.09.01-18.58.39:560][  0]LogMemory: Process Virtual Memory: 57.98 MB used, 57.98 MB peak
+[2015.09.01-18.58.39:560][  0]LogMemory: Physical Memory: 4984.25 MB used, 8135.00 MB total
+[2015.09.01-18.58.39:560][  0]LogMemory: Virtual Memory: 352.38 MB used, 134217728.00 MB total
+[2015.09.01-18.58.39:587][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2015.09.01-18.58.40:242][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.09.01-18.58.40:242][  0]LogD3D11RHI: Adapter has 3992MB of dedicated video memory, 0MB of dedicated system memory, and 4067MB of shared system memory, 1 output[s]
+[2015.09.01-18.58.40:242][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.01-18.58.40:242][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.09.01-18.58.40:243][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.01-18.58.40:246][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.01-18.58.40:246][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.01-18.58.40:255][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.01-18.58.40:271][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (E:/Unreal Engine/Projects/MrFirstProject/Intermediate/Shaders/WorkingDirectory/6696/).
+[2015.09.01-18.58.40:271][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'E:/Unreal Engine/Projects/MrFirstProject/Intermediate/Shaders/tmp/C243625F4D9022017B86E2AF414E7D46/'.
+[2015.09.01-18.58.40:271][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.01-18.58.41:225][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.01-18.58.41:229][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.01-18.58.41:234][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.01-18.58.41:239][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.01-18.58.41:244][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.01-18.58.41:247][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.01-18.58.41:250][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.01-18.58.41:253][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.01-18.58.41:255][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.01-18.58.41:258][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.01-18.58.41:261][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.01-18.58.41:264][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.01-18.58.41:265][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.01-18.58.41:281][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.01-18.58.41:283][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.01-18.58.41:286][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.01-18.58.41:290][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.01-18.58.41:290][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.01-18.58.41:360][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.01-18.58.41:402][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/FeniX/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.01-18.58.41:402][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/FeniX/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.01-18.58.41:402][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal Engine/Projects/MrFirstProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.01-18.58.41:402][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.01-18.58.41:402][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal Engine/Projects/MrFirstProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.01-18.58.41:402][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.01-18.58.41:522][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.01-18.58.41:535][  0]LogDerivedDataCache: Using Local data cache path C:/Users/FeniX/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.01-18.58.41:677][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.01-18.58.41:680][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.01-18.58.41:779][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.01-18.58.41:779][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.01-18.58.41:980][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.01-18.58.42:553][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.01-18.58.42:644][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2015.09.01-18.58.42:777][  0]SourceControl: Info Source control is disabled
+[2015.09.01-18.58.42:783][  0]SourceControl: Info Source control is disabled
+[2015.09.01-18.58.42:790][  0]SourceControl: Info Source control is disabled
+[2015.09.01-18.58.42:798][  0]SourceControl: Info Source control is disabled
+[2015.09.01-18.58.42:906][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.01-18.58.42:965][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.09.01-18.58.42:965][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.09.01-18.58.43:013][  0]LogEngine: Initializing Engine...
+[2015.09.01-18.58.43:015][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.01-18.58.43:015][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.01-18.58.43:119][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.01-18.58.43:124][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.01-18.58.43:130][  0]LogInit: FAudioDevice initialized.
+[2015.09.01-18.58.43:149][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/FeniX/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.01-18.58.43:153][  0]LogInit: Texture streaming: Enabled
+[2015.09.01-18.58.43:158][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.01-18.58.43:158][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.01-18.58.43:158][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 5ae0703142a457eb4d3a3eb08ce37fb3|d32e66fa61e14e30b1d599acd0ee14b5|322b85ee-a709-4918-a5c8-974ff3a9213e
+[2015.09.01-18.58.43:158][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.01-18.58.43:166][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.01-18.58.43:175][  0]LogInit: Transaction tracking system initialized
+[2015.09.01-18.58.43:199][  0]BlueprintLog: New page: Editor Load
+[2015.09.01-18.58.43:269][  0]LocalizationService: Info Localization service is disabled
+[2015.09.01-18.58.43:332][  0]LogConsoleResponse:Display: 
+[2015.09.01-18.58.43:420][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.01-18.58.43:468][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Engine/Projects/MrFirstProject/Content/' took 0.01s
+[2015.09.01-18.58.43:468][  0]SourceControl: Info Source control is disabled
+[2015.09.01-18.58.43:468][  0]Cmd: MAP LOAD FILE="E:/Unreal Engine/Projects/MrFirstProject/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.01-18.58.43:468][  0]LightingResults: New page: Lighting Build
+[2015.09.01-18.58.43:471][  0]MapCheck: New page: Map Check
+[2015.09.01-18.58.43:471][  0]LightingResults: New page: Lighting Build
+[2015.09.01-18.58.43:480][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3B0B11DA0
+[2015.09.01-18.58.43:637][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.09.01-18.58.43:640][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.01-18.58.43:641][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.01-18.58.43:674][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.9ms to complete.
+[2015.09.01-18.58.43:674][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.206
+[2015.09.01-18.58.43:765][  0]LogCollectionManager: Loaded 0 collections in 0.001818 seconds
+[2015.09.01-18.58.43:805][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Engine/Projects/MrFirstProject/Saved/Collections/' took 0.01s
+[2015.09.01-18.58.43:805][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Engine/Projects/MrFirstProject/Content/Developers/FeniX/Collections/' took 0.01s
+[2015.09.01-18.58.43:805][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Engine/Projects/MrFirstProject/Content/Collections/' took 0.01s
+[2015.09.01-18.58.43:805][  0]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 1867 classes and 333 folders.
+[2015.09.01-18.58.43:809][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.09.01-18.58.43:814][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.01-18.58.43:847][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.01-18.58.43:851][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.09.01-18.58.43:871][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.01-18.58.43:874][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.01-18.58.43:896][  0]LogLoad: Full Startup: 4.83 seconds (BP compile: 0.02 seconds)
+[2015.09.01-18.58.43:950][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.09.01-18.58.44:063][  0]LogRenderer: Reallocating scene render targets to support 1168x600 (Frame:2).
+[2015.09.01-18.58.44:148][  2]LogAssetRegistry: Asset discovery search completed in 1.5154 seconds
+[2015.09.01-18.58.44:148][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.09.01-18.58.44:148][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2015.09.01-18.59.01:988][121]LogAIModule: Creating AISystem for world FirstMap
+[2015.09.01-18.59.02:007][121]Cmd: MAP LOAD FILE="E:/Unreal Engine/Projects/MrFirstProject/Content/MrFirstProjectBP/Maps/FirstMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.01-18.59.02:008][121]LightingResults: New page: Lighting Build
+[2015.09.01-18.59.02:019][121]LoadErrors: New page: Loading map: FirstMap.umap
+[2015.09.01-18.59.02:020][121]MapCheck: New page: Map Check
+[2015.09.01-18.59.02:020][121]LightingResults: New page: Lighting Build
+[2015.09.01-18.59.02:029][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3AE05A340
+[2015.09.01-18.59.02:031][121]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.01-18.59.02:052][121]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.01-18.59.02:086][121]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.394ms to complete.
+[2015.09.01-18.59.02:086][121]LogFileHelpers: Loading map 'FirstMap' took 0.081
+[2015.09.01-18.59.11:296][171]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge6)
+[2015.09.01-18.59.15:924][719]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge5)
+[2015.09.01-18.59.17:362][887]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2015.09.01-18.59.33:259][768]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge5)
+[2015.09.01-18.59.36:933][177]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2015.09.01-19.00.15:785][799]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2015.09.01-19.00.16:806][910]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.09.01-19.00.21:545][471]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2015.09.01-19.00.22:679][595]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.09.01-19.00.27:902][215]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2015.09.01-19.00.29:168][363]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2015.09.01-19.00.34:502][989]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2015.09.01-19.00.38:168][402]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.01-19.00.38:225][402]PIE: New page: PIE session: FirstMap (Sep 2, 2015, 1:00:38 AM)
+[2015.09.01-19.00.38:235][402]LogPlayLevel: Creating play world package: /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap
+[2015.09.01-19.00.38:276][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040420s)
+[2015.09.01-19.00.38:276][402]LogAIModule: Creating AISystem for world FirstMap
+[2015.09.01-19.00.38:276][402]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2015.09.01-19.00.38:276][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MrFirstProjectBP/Maps/FirstMap.FirstMap to /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap.FirstMap (0.041319s)
+[2015.09.01-19.00.38:279][402]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2015.09.01-19.00.38:333][402]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.01-19.00.38:338][402]LogInit: FAudioDevice initialized.
+[2015.09.01-19.00.38:501][402]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.09.01-19.00.38:653][402]LogWorld: Bringing World /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2015.09.01-22.00.38
+[2015.09.01-19.00.38:654][402]LogActor:Warning: GameSession /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap.FirstMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.01-19.00.38:654][402]LogActor:Warning: GameNetworkManager /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap.FirstMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.01-19.00.38:884][402]LogWorld: Bringing up level for play took: 0.233663
+[2015.09.01-19.00.39:041][402]PIE: Info Play in editor start time for /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap 0.612
+[2015.09.01-19.00.40:426][535]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:435][536]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:443][537]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:451][538]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:460][539]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:468][540]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:476][541]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:485][542]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:493][543]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:501][544]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:510][545]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:518][546]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:526][547]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:535][548]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:543][549]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:551][550]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:560][551]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:568][552]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:576][553]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:585][554]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:593][555]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:601][556]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:610][557]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:618][558]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:626][559]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:635][560]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:643][561]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:651][562]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:660][563]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:668][564]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:676][565]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:685][566]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:693][567]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:701][568]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:710][569]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:718][570]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:726][571]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:735][572]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:743][573]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:751][574]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:760][575]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:768][576]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:776][577]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:785][578]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:793][579]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:802][580]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:810][581]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:818][582]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:826][583]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:835][584]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:843][585]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:851][586]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:860][587]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:868][588]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:876][589]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:885][590]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:893][591]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:901][592]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:910][593]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:918][594]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:926][595]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:935][596]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:943][597]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:951][598]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:960][599]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:968][600]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:976][601]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:985][602]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.40:993][603]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:002][604]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:010][605]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:018][606]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:026][607]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:035][608]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:043][609]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:052][610]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:060][611]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:068][612]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:076][613]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:085][614]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:093][615]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:102][616]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:110][617]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:118][618]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:126][619]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:135][620]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:143][621]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:151][622]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:160][623]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:168][624]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:176][625]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:185][626]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:193][627]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:201][628]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:210][629]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:218][630]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:226][631]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:235][632]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:243][633]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:251][634]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:260][635]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:268][636]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:276][637]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:285][638]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:293][639]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:301][640]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:310][641]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:318][642]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:326][643]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:335][644]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:343][645]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:352][646]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:360][647]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:368][648]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:376][649]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:385][650]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:393][651]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:402][652]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:410][653]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:418][654]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:426][655]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:435][656]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:443][657]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:451][658]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:460][659]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:469][660]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:477][661]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:485][662]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:493][663]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:502][664]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:510][665]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:518][666]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:527][667]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:535][668]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:543][669]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:551][670]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:560][671]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:568][672]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:577][673]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:585][674]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:593][675]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:602][676]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:610][677]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:618][678]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:627][679]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:635][680]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:643][681]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:651][682]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.41:993][723]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:002][724]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:010][725]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:018][726]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:026][727]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:035][728]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:043][729]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:051][730]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:060][731]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:068][732]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:076][733]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:085][734]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:093][735]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:101][736]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:110][737]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:118][738]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:126][739]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:135][740]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:143][741]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:151][742]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:160][743]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:168][744]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:176][745]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:185][746]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:193][747]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:201][748]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:210][749]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:218][750]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:226][751]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:235][752]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:243][753]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:251][754]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:260][755]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:268][756]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:276][757]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:285][758]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:293][759]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:301][760]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:310][761]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:318][762]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:326][763]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:335][764]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:343][765]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:351][766]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:360][767]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:368][768]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:376][769]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:385][770]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:393][771]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:401][772]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:410][773]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:418][774]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:426][775]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:435][776]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:443][777]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:451][778]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:460][779]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:468][780]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:476][781]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:485][782]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:493][783]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:501][784]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:510][785]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:518][786]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:526][787]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:535][788]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:543][789]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:551][790]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:560][791]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:576][793]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:585][794]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:593][795]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:601][796]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:610][797]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:618][798]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:626][799]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:635][800]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:643][801]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:651][802]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:660][803]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:668][804]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:676][805]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:685][806]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:693][807]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:701][808]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:710][809]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:718][810]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:726][811]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:735][812]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:743][813]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:751][814]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:760][815]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:768][816]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:776][817]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:785][818]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:793][819]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:801][820]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:810][821]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:818][822]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:826][823]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:835][824]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:843][825]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:851][826]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:860][827]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:868][828]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.42:876][829]LogCharacterMovement: 2DSideScrollerCharacter_C_887 is stuck and failed to move!
+[2015.09.01-19.00.45:033][ 67]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3B70956C0
+[2015.09.01-19.00.48:487][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.01-19.00.48:487][466]PIE: New page: PIE session: FirstMap (Sep 2, 2015, 1:00:48 AM)
+[2015.09.01-19.00.48:487][466]LogPlayLevel: Creating play world package: /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap
+[2015.09.01-19.00.48:488][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000915s)
+[2015.09.01-19.00.48:489][466]LogAIModule: Creating AISystem for world FirstMap
+[2015.09.01-19.00.48:489][466]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2015.09.01-19.00.48:489][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MrFirstProjectBP/Maps/FirstMap.FirstMap to /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap.FirstMap (0.001552s)
+[2015.09.01-19.00.48:526][466]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.01-19.00.48:531][466]LogInit: FAudioDevice initialized.
+[2015.09.01-19.00.48:566][466]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.09.01-19.00.48:569][466]LogWorld: Bringing World /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2015.09.01-22.00.48
+[2015.09.01-19.00.48:569][466]LogActor:Warning: GameSession /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap.FirstMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.01-19.00.48:569][466]LogActor:Warning: GameNetworkManager /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap.FirstMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.01-19.00.48:570][466]LogWorld: Bringing up level for play took: 0.002226
+[2015.09.01-19.00.48:571][466]PIE: Info Play in editor start time for /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap 0.142
+[2015.09.01-19.00.49:146][535]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:154][536]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:163][537]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:171][538]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:179][539]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:188][540]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:196][541]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:204][542]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:213][543]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:221][544]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:229][545]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:238][546]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:246][547]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:254][548]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:263][549]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:271][550]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:279][551]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:288][552]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:296][553]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:304][554]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:313][555]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:321][556]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:329][557]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:338][558]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:346][559]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:354][560]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:363][561]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:371][562]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:379][563]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:388][564]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:396][565]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:404][566]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:413][567]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:421][568]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:429][569]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:438][570]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:446][571]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:454][572]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:463][573]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:471][574]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:479][575]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:488][576]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:496][577]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:504][578]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:513][579]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:521][580]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:530][581]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:538][582]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:546][583]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:554][584]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:563][585]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:571][586]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:579][587]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:588][588]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:596][589]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:604][590]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:613][591]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:621][592]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:629][593]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:638][594]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:646][595]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:654][596]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:663][597]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:671][598]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:679][599]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:688][600]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:696][601]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:704][602]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:713][603]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:721][604]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:729][605]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:738][606]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:746][607]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:754][608]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:763][609]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:771][610]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:779][611]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:788][612]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:796][613]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:804][614]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:813][615]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:821][616]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:829][617]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.49:838][618]LogCharacterMovement: 2DSideScrollerCharacter_C_888 is stuck and failed to move!
+[2015.09.01-19.00.51:482][803]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3E3CFFE20
+[2015.09.01-19.00.52:635][937]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2015.09.01-19.00.53:566][ 42]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2015.09.01-19.00.54:391][129]Cmd: DELETE
+[2015.09.01-19.00.54:391][129]Cmd: ACTOR DELETE
+[2015.09.01-19.00.54:526][129]LogEditorActor: Deleted Actor: 2DSideScrollerCharacter_C
+[2015.09.01-19.00.54:563][129]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2015.09.01-19.00.56:053][307]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.01-19.00.56:053][307]PIE: New page: PIE session: FirstMap (Sep 2, 2015, 1:00:56 AM)
+[2015.09.01-19.00.56:053][307]LogPlayLevel: Creating play world package: /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap
+[2015.09.01-19.00.56:054][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000746s)
+[2015.09.01-19.00.56:054][307]LogAIModule: Creating AISystem for world FirstMap
+[2015.09.01-19.00.56:055][307]LogPlayLevel: PIE: World Init took: (0.000500s)
+[2015.09.01-19.00.56:055][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MrFirstProjectBP/Maps/FirstMap.FirstMap to /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap.FirstMap (0.001369s)
+[2015.09.01-19.00.56:068][307]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.01-19.00.56:073][307]LogInit: FAudioDevice initialized.
+[2015.09.01-19.00.56:106][307]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.09.01-19.00.56:109][307]LogWorld: Bringing World /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2015.09.01-22.00.56
+[2015.09.01-19.00.56:109][307]LogActor:Warning: GameSession /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap.FirstMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.01-19.00.56:109][307]LogActor:Warning: GameNetworkManager /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap.FirstMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.01-19.00.56:109][307]LogWorld: Bringing up level for play took: 0.001531
+[2015.09.01-19.00.56:111][307]PIE: Info Play in editor start time for /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap -0.319
+[2015.09.01-19.00.56:777][387]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:785][388]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:793][389]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:802][390]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:810][391]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:818][392]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:827][393]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:835][394]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:843][395]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:852][396]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:860][397]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:868][398]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:877][399]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:885][400]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:893][401]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:902][402]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:910][403]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:918][404]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:927][405]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:935][406]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:943][407]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:951][408]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:960][409]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:968][410]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:977][411]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:985][412]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.56:993][413]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:002][414]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:010][415]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:018][416]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:027][417]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:035][418]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:043][419]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:052][420]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:060][421]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:068][422]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:077][423]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:085][424]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:093][425]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:102][426]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:110][427]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:118][428]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:126][429]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:135][430]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:143][431]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:152][432]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:160][433]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:168][434]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:177][435]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:185][436]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:193][437]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:201][438]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:210][439]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:218][440]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:226][441]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:235][442]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:243][443]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:252][444]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:260][445]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:268][446]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:277][447]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:285][448]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:293][449]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:301][450]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:310][451]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:318][452]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:326][453]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:335][454]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:343][455]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:352][456]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:360][457]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:368][458]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:376][459]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:385][460]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:393][461]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:402][462]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:410][463]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:418][464]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:427][465]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:435][466]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:443][467]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:451][468]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:460][469]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:468][470]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:477][471]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:485][472]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:493][473]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:502][474]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:510][475]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:518][476]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:527][477]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:535][478]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:543][479]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:552][480]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:560][481]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:568][482]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:576][483]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:585][484]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:593][485]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:602][486]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:610][487]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:618][488]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:627][489]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:635][490]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:643][491]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:652][492]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:660][493]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:668][494]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.57:676][495]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:635][610]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:643][611]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:652][612]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:660][613]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:668][614]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:676][615]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:685][616]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:693][617]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:702][618]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:710][619]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:718][620]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:726][621]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:735][622]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:743][623]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:751][624]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:760][625]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:768][626]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:776][627]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:785][628]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:793][629]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:802][630]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:810][631]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:818][632]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:827][633]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:835][634]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:843][635]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:851][636]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:860][637]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:868][638]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:876][639]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:885][640]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:893][641]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:902][642]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:910][643]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:918][644]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:926][645]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:935][646]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:943][647]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:951][648]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:960][649]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:968][650]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:976][651]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:985][652]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.58:993][653]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:001][654]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:010][655]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:018][656]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:026][657]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:035][658]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:043][659]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:052][660]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:060][661]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:068][662]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:076][663]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:085][664]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:093][665]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:102][666]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:110][667]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:118][668]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:126][669]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:135][670]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:143][671]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:151][672]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:160][673]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:168][674]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:177][675]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.00.59:185][676]LogCharacterMovement: 2DSideScrollerCharacter_C_889 is stuck and failed to move!
+[2015.09.01-19.01.06:397][536]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3EB531080
+[2015.09.01-19.01.07:392][654]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.01-19.01.07:392][654]PIE: New page: PIE session: FirstMap (Sep 2, 2015, 1:01:07 AM)
+[2015.09.01-19.01.07:392][654]LogPlayLevel: Creating play world package: /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap
+[2015.09.01-19.01.07:393][654]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000750s)
+[2015.09.01-19.01.07:393][654]LogAIModule: Creating AISystem for world FirstMap
+[2015.09.01-19.01.07:393][654]LogPlayLevel: PIE: World Init took: (0.000473s)
+[2015.09.01-19.01.07:394][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MrFirstProjectBP/Maps/FirstMap.FirstMap to /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap.FirstMap (0.001372s)
+[2015.09.01-19.01.07:407][654]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.01-19.01.07:412][654]LogInit: FAudioDevice initialized.
+[2015.09.01-19.01.07:442][654]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.09.01-19.01.07:445][654]LogWorld: Bringing World /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2015.09.01-22.01.07
+[2015.09.01-19.01.07:445][654]LogActor:Warning: GameSession /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap.FirstMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.01-19.01.07:445][654]LogActor:Warning: GameNetworkManager /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap.FirstMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.01-19.01.07:445][654]LogWorld: Bringing up level for play took: 0.001585
+[2015.09.01-19.01.07:446][654]PIE: Info Play in editor start time for /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap 1.017
+[2015.09.01-19.01.07:837][701]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.07:845][702]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.07:854][703]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.07:862][704]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.07:870][705]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.07:879][706]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.07:887][707]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.07:895][708]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.07:904][709]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.07:912][710]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.07:920][711]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.07:929][712]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.07:937][713]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.07:945][714]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.07:954][715]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.07:962][716]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.07:970][717]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.07:979][718]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:479][778]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:487][779]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:495][780]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:504][781]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:512][782]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:520][783]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:529][784]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:537][785]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:545][786]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:554][787]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:562][788]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:570][789]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:579][790]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:587][791]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:595][792]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:604][793]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:612][794]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:620][795]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:629][796]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:637][797]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:645][798]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:654][799]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:662][800]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:670][801]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:679][802]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:687][803]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:695][804]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:704][805]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:712][806]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:720][807]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:729][808]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.08:737][809]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:062][848]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:070][849]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:079][850]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:087][851]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:095][852]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:104][853]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:112][854]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:120][855]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:129][856]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:137][857]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:145][858]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:154][859]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:162][860]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:170][861]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:179][862]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:187][863]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:195][864]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:204][865]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:212][866]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:220][867]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:229][868]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:237][869]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:245][870]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:254][871]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:262][872]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:270][873]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:279][874]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:287][875]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:295][876]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:304][877]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:312][878]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:320][879]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:329][880]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:337][881]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:345][882]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:354][883]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:362][884]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:370][885]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:379][886]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:387][887]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:620][915]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:629][916]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:637][917]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:645][918]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:654][919]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:662][920]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:670][921]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:679][922]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:687][923]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:695][924]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:704][925]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:712][926]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:720][927]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:729][928]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:737][929]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:745][930]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:754][931]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:762][932]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:770][933]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:779][934]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:787][935]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:795][936]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:804][937]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:812][938]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:820][939]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:829][940]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:837][941]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.09:845][942]LogCharacterMovement: 2DSideScrollerCharacter_C_890 is stuck and failed to move!
+[2015.09.01-19.01.12:157][214]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3EB532FC0
+[2015.09.01-19.01.13:250][345]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.09.01-19.01.14:792][526]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.01-19.01.15:409][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.01-19.01.15:409][598]PIE: New page: PIE session: FirstMap (Sep 2, 2015, 1:01:15 AM)
+[2015.09.01-19.01.15:409][598]LogPlayLevel: Creating play world package: /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap
+[2015.09.01-19.01.15:410][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000733s)
+[2015.09.01-19.01.15:411][598]LogAIModule: Creating AISystem for world FirstMap
+[2015.09.01-19.01.15:411][598]LogPlayLevel: PIE: World Init took: (0.000588s)
+[2015.09.01-19.01.15:411][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MrFirstProjectBP/Maps/FirstMap.FirstMap to /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap.FirstMap (0.001453s)
+[2015.09.01-19.01.15:424][598]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.01-19.01.15:429][598]LogInit: FAudioDevice initialized.
+[2015.09.01-19.01.15:459][598]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.09.01-19.01.15:461][598]LogWorld: Bringing World /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2015.09.01-22.01.15
+[2015.09.01-19.01.15:461][598]LogActor:Warning: GameSession /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap.FirstMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.01-19.01.15:462][598]LogActor:Warning: GameNetworkManager /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap.FirstMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.01-19.01.15:462][598]LogWorld: Bringing up level for play took: 0.001564
+[2015.09.01-19.01.15:463][598]PIE: Info Play in editor start time for /Game/MrFirstProjectBP/Maps/UEDPIE_0_FirstMap 1.034
+[2015.09.01-19.01.15:946][656]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.15:955][657]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.15:963][658]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.15:971][659]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.15:980][660]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.15:988][661]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.15:996][662]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:004][663]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:013][664]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:021][665]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:030][666]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:038][667]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:046][668]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:055][669]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:063][670]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:071][671]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:080][672]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:088][673]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:096][674]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:104][675]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:113][676]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:121][677]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:130][678]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:138][679]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:146][680]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:155][681]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:163][682]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:171][683]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:180][684]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:188][685]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:196][686]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:204][687]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:213][688]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:221][689]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:230][690]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:238][691]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:246][692]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:255][693]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:263][694]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:271][695]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:280][696]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:288][697]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:296][698]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:304][699]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:313][700]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:321][701]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:330][702]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:338][703]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:346][704]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:355][705]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:363][706]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:371][707]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:380][708]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:388][709]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:396][710]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:404][711]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:413][712]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:421][713]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:430][714]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:438][715]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:446][716]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:455][717]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:463][718]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:471][719]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:480][720]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:488][721]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:496][722]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:504][723]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:513][724]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:522][725]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:530][726]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:538][727]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:546][728]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:555][729]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:563][730]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:571][731]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:580][732]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:588][733]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:596][734]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:605][735]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:613][736]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:621][737]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:630][738]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:638][739]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:646][740]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:655][741]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:663][742]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:671][743]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:680][744]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:688][745]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:696][746]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:705][747]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:713][748]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:721][749]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:730][750]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:738][751]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:746][752]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:755][753]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:763][754]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:771][755]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:780][756]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:788][757]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:796][758]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:805][759]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:813][760]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:821][761]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:830][762]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:838][763]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:846][764]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:855][765]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:863][766]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:871][767]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:880][768]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:888][769]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:896][770]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:905][771]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:913][772]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:921][773]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:930][774]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:938][775]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:946][776]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:955][777]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:963][778]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:971][779]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:980][780]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:988][781]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.16:996][782]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.17:005][783]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.17:013][784]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.17:021][785]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.17:030][786]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.17:038][787]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.17:046][788]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.17:055][789]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.17:063][790]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.17:071][791]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.17:080][792]LogCharacterMovement: 2DSideScrollerCharacter_C_891 is stuck and failed to move!
+[2015.09.01-19.01.18:250][926]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3C319AF20
+[2015.09.01-19.01.19:644][ 93]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge5)
+[2015.09.01-19.01.21:343][293]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.09.01-19.01.22:527][433]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge5)
+[2015.09.01-19.01.24:394][653]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.09.01-19.01.34:240][806]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.01-19.01.35:067][806]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2015.09.01-19.01.39:584][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3EB587880
+[2015.09.01-19.01.39:635][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProjectBP/Maps/FirstMap" FILE="E:/Unreal Engine/Projects/MrFirstProject/Content/MrFirstProjectBP/Maps/FirstMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.01-19.01.39:881][211]LogSavePackage: Save=227.555588ms
+[2015.09.01-19.01.39:881][211]LogSavePackage: Moving 'E:/Unreal Engine/Projects/MrFirstProject/Saved/FirstMapE84FE8E34EA8E61AACFD3996205B70D4.tmp' to 'E:/Unreal Engine/Projects/MrFirstProject/Content/MrFirstProjectBP/Maps/FirstMap.umap'
+[2015.09.01-19.01.39:882][211]LogSavePackage: Total save time: 229.292862ms
+[2015.09.01-19.01.39:882][211]LogSavePackage:Warning: Finished SavePackage E:/Unreal Engine/Projects/MrFirstProject/Content/MrFirstProjectBP/Maps/FirstMap.umap
+[2015.09.01-19.01.39:906][211]LogFileHelpers: Saving map 'FirstMap' took 0.312
+[2015.09.01-19.01.42:185][474]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.09.01-19.01.42:210][474]Cmd: MAP LOAD FILE="E:/Unreal Engine/Projects/MrFirstProject/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.01-19.01.42:210][474]LightingResults: New page: Lighting Build
+[2015.09.01-19.01.42:224][474]LoadErrors: New page: Loading map: 2DSideScrollerExampleMap.umap
+[2015.09.01-19.01.42:224][474]MapCheck: New page: Map Check
+[2015.09.01-19.01.42:224][474]LightingResults: New page: Lighting Build
+[2015.09.01-19.01.42:240][474]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3E3CFECA0
+[2015.09.01-19.01.42:246][474]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.01-19.01.42:268][474]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.01-19.01.42:305][474]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.81ms to complete.
+[2015.09.01-19.01.42:305][474]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.099
+[2015.09.01-19.02.18:626][538]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2015.09.01-19.02.19:796][673]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2015.09.01-19.02.22:465][982]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2015.09.01-19.02.29:964][870]LogAIModule: Creating AISystem for world FirstMap
+[2015.09.01-19.02.29:983][870]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3B6331C60
+[2015.09.01-19.02.29:983][870]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3EB585440
+[2015.09.01-19.02.31:031][870]Cmd: MAP LOAD FILE="E:/Unreal Engine/Projects/MrFirstProject/Content/MrFirstProjectBP/Maps/FirstMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.01-19.02.31:032][870]LightingResults: New page: Lighting Build
+[2015.09.01-19.02.31:046][870]LoadErrors: New page: Loading map: FirstMap.umap
+[2015.09.01-19.02.31:047][870]MapCheck: New page: Map Check
+[2015.09.01-19.02.31:047][870]LightingResults: New page: Lighting Build
+[2015.09.01-19.02.31:064][870]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3CD15BE20
+[2015.09.01-19.02.31:069][870]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.01-19.02.31:091][870]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.01-19.02.31:129][870]MapCheck: Info Map check com
