@@ -44,3 +44,12 @@ Temporary Items
 
 Saved/Logs/*
 Saved/Logs/MrFirstProject.log
+
+Saved\Logs\*
+Saved\Logs\MrFirstProject.log
+
+Saved\Backup\*
+Saved/Backup/*
+
+Saved\Autosaves\*
+Saved/Autosaves/*
