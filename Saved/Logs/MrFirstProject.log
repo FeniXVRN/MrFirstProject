@@ -1,972 +1,288 @@
-﻿[2015.09.07-08.50.04:315][  0]Log file open, 09/07/15 11:50:04
-[2015.09.07-08.50.04:315][  0]LogInit:Display: Running engine for game: MrFirstProject
-[2015.09.07-08.50.04:315][  0]LogInit:Display: RandInit(-1640421633) SRandInit(-1640421632).
-[2015.09.07-08.50.04:315][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
-[2015.09.07-08.50.04:315][  0]LogStats: Stats thread started at 0.171597
-[2015.09.07-08.50.04:315][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
-[2015.09.07-08.50.04:315][  0]LogInit: API Version: 2672455
-[2015.09.07-08.50.04:315][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
-[2015.09.07-08.50.04:315][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.09.07-08.50.04:315][  0]LogInit: Build Configuration: Development
-[2015.09.07-08.50.04:315][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2015.09.07-08.50.04:315][  0]LogInit: Command line:  
-[2015.09.07-08.50.04:315][  0]LogInit: Base directory: E:/Developing/Epic Games/4.9/Engine/Binaries/Win64/
-[2015.09.07-08.50.04:315][  0]LogInit: Rocket: 1
-[2015.09.07-08.50.04:353][  0]LogInit: Using libcurl 7.41.0
-[2015.09.07-08.50.04:353][  0]LogInit:  - built for x86_64-pc-win32
-[2015.09.07-08.50.04:353][  0]LogInit:  - supports SSL with WinSSL
-[2015.09.07-08.50.04:353][  0]LogInit:  - other features:
-[2015.09.07-08.50.04:353][  0]LogInit:      CURL_VERSION_SSL
-[2015.09.07-08.50.04:353][  0]LogInit:      CURL_VERSION_IPV6
-[2015.09.07-08.50.04:353][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.09.07-08.50.04:353][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.09.07-08.50.04:353][  0]LogInit:      CURL_VERSION_IDN
-[2015.09.07-08.50.04:353][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.09.07-08.50.04:353][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.09.07-08.50.04:353][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.09.07-08.50.04:353][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.09.07-08.50.04:353][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.09.07-08.50.04:364][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.09.07-08.50.04:376][  0]LogInit: Object subsystem initialized
-[2015.09.07-08.50.04:379][  0]LogInit: Selected Device Profile: [Windows]
-[2015.09.07-08.50.04:379][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.09.07-08.50.04:404][  0]LogInit: Computer: FENIX-NOTEBOOK
-[2015.09.07-08.50.04:404][  0]LogInit: User: Johny
-[2015.09.07-08.50.04:404][  0]LogInit: CPU Page size=4096, Cores=2
-[2015.09.07-08.50.04:404][  0]LogInit: High frequency timer resolution =2.208009 MHz
-[2015.09.07-08.50.04:404][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
-[2015.09.07-08.50.04:404][  0]LogMemory: Platform Memory Stats for Windows
-[2015.09.07-08.50.04:404][  0]LogMemory: Process Physical Memory: 51.91 MB used, 51.91 MB peak
-[2015.09.07-08.50.04:404][  0]LogMemory: Process Virtual Memory: 54.85 MB used, 54.85 MB peak
-[2015.09.07-08.50.04:404][  0]LogMemory: Physical Memory: 2726.54 MB used, 7924.48 MB total
-[2015.09.07-08.50.04:404][  0]LogMemory: Virtual Memory: 342.28 MB used, 134217728.00 MB total
-[2015.09.07-08.50.04:447][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
-[2015.09.07-08.50.05:911][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Mobility Radeon HD 5000 Series (Feature Level 11_0)
-[2015.09.07-08.50.05:911][  0]LogD3D11RHI: Adapter has 1014MB of dedicated video memory, 0MB of dedicated system memory, and 3712MB of shared system memory, 1 output[s]
-[2015.09.07-08.50.05:913][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.09.07-08.50.05:913][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.09.07-08.50.05:914][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.09.07-08.50.05:914][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.09.07-08.50.05:914][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.09.07-08.50.05:919][  0]LogD3D11RHI: !Direct3DDevice
-[2015.09.07-08.50.05:919][  0]LogRHI: Texture pool is 709 MB (70% of 1014 MB)
-[2015.09.07-08.50.05:926][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2015.09.07-08.50.05:941][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Проекты UE4/MrFirstProject/Intermediate/Shaders/WorkingDirectory/2564/).
-[2015.09.07-08.50.05:942][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Проекты UE4/MrFirstProject/Intermediate/Shaders/tmp/8B438DD6438584FFFFCE67868C9B1F58/'.
-[2015.09.07-08.50.05:942][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.09.07-08.50.09:122][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2015.09.07-08.50.09:131][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.09.07-08.50.09:139][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.09.07-08.50.09:147][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.09.07-08.50.09:155][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.09.07-08.50.09:161][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.09.07-08.50.09:166][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.09.07-08.50.09:171][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.09.07-08.50.09:176][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.09.07-08.50.09:182][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.09.07-08.50.09:187][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.09.07-08.50.09:192][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.09.07-08.50.09:193][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2015.09.07-08.50.09:213][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.09.07-08.50.09:218][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.09.07-08.50.09:223][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.09.07-08.50.09:228][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.09.07-08.50.09:228][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.09.07-08.50.09:356][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.09.07-08.50.10:052][  0]LogDerivedDataCache: Loaded boot cache 0.70s 41MB C:/Users/Johny/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.09.07-08.50.10:052][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Johny/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2015.09.07-08.50.10:052][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Проекты UE4/MrFirstProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.09.07-08.50.10:052][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.09.07-08.50.10:052][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Проекты UE4/MrFirstProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.09.07-08.50.10:052][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.09.07-08.50.10:285][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.09.07-08.50.10:316][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Johny/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.09.07-08.50.19:947][  0]LogInit: Selected Device Profile: [Windows]
-[2015.09.07-08.50.20:142][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.09.07-08.50.22:329][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.09.07-08.50.22:329][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.09.07-08.50.27:231][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.09.07-08.50.55:047][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.09.07-08.50.55:836][  0]LogAssetRegistry: FAssetRegistry took 0.0126 seconds to start up
-[2015.09.07-08.51.03:571][  0]SourceControl: Info Source control is disabled
-[2015.09.07-08.51.03:783][  0]SourceControl: Info Source control is disabled
-[2015.09.07-08.51.03:853][  0]SourceControl: Info Source control is disabled
-[2015.09.07-08.51.03:942][  0]SourceControl: Info Source control is disabled
-[2015.09.07-08.51.05:061][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.09.07-08.51.05:964][  0]LogObj: 28361 objects as part of root set at end of initial load.
-[2015.09.07-08.51.05:964][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
-[2015.09.07-08.51.07:139][  0]LogEngine: Initializing Engine...
-[2015.09.07-08.51.07:182][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
-[2015.09.07-08.51.07:262][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2015.09.07-08.51.08:627][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.09.07-08.51.08:825][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.09.07-08.51.08:940][  0]LogInit: FAudioDevice initialized.
-[2015.09.07-08.51.08:990][  0]LogDerivedDataCache: Saved boot cache 0.05s 41MB C:/Users/Johny/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.09.07-08.51.09:003][  0]LogInit: Texture streaming: Enabled
-[2015.09.07-08.51.09:072][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.09.07-08.51.09:072][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
-[2015.09.07-08.51.09:072][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId acc850ee41f564ff878354b7b3a1f120|cf9063ea962f44dc9b342acb530fe232|618c7f8c-dafb-43b2-a445-f2cfd5f93e4d
-[2015.09.07-08.51.09:092][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.09.07-08.51.09:213][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-08.51.09:826][  0]LogInit: Transaction tracking system initialized
-[2015.09.07-08.51.10:478][  0]BlueprintLog: New page: Editor Load
-[2015.09.07-08.51.12:572][  0]LocalizationService: Info Localization service is disabled
-[2015.09.07-08.51.13:806][  0]LogConsoleResponse:Display: 
-[2015.09.07-08.51.19:052][  0]LogFileCache: Scanning file cache for directory 'E:/Проекты UE4/MrFirstProject/Content/' took 0.02s
-[2015.09.07-08.51.19:052][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.09.07-08.51.24:299][  0]SourceControl: Info Source control is disabled
-[2015.09.07-08.51.24:349][  0]Cmd: MAP LOAD FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProjectBP/Maps/FirstMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.09.07-08.51.24:437][  0]LightingResults: New page: Lighting Build
-[2015.09.07-08.51.24:535][  0]MapCheck: New page: Map Check
-[2015.09.07-08.51.24:535][  0]LightingResults: New page: Lighting Build
-[2015.09.07-08.51.24:581][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CB129E160
-[2015.09.07-08.51.25:098][  0]LogAIModule: Creating AISystem for world FirstMap
-[2015.09.07-08.51.25:255][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/MrFirstProjectBP/Maps/FirstMap.FirstMap:PersistentLevel.ShinobiRetsuden2_BGs_Sprite_64.RenderComponent)
-[2015.09.07-08.51.25:394][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.09.07-08.51.25:608][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.09.07-08.51.25:857][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 249.339ms to complete.
-[2015.09.07-08.51.25:901][  0]LogFileHelpers: Loading map 'FirstMap' took 1.569
-[2015.09.07-08.51.27:612][  0]LogCollectionManager: Loaded 0 collections in 0.006219 seconds
-[2015.09.07-08.51.27:806][  0]LogFileCache: Scanning file cache for directory 'E:/Проекты UE4/MrFirstProject/Saved/Collections/' took 0.01s
-[2015.09.07-08.51.27:806][  0]LogFileCache: Scanning file cache for directory 'E:/Проекты UE4/MrFirstProject/Content/Developers/Johny/Collections/' took 0.01s
-[2015.09.07-08.51.27:806][  0]LogFileCache: Scanning file cache for directory 'E:/Проекты UE4/MrFirstProject/Content/Collections/' took 0.01s
-[2015.09.07-08.51.27:806][  0]LogContentBrowser: Native class hierarchy populated in 0.0809 seconds. Added 1867 classes and 333 folders.
-[2015.09.07-08.51.27:946][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
-[2015.09.07-08.51.28:060][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2015.09.07-08.51.29:959][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2015.09.07-08.51.30:153][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2015.09.07-08.51.30:762][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.09.07-08.51.30:896][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.09.07-08.51.30:978][  0]LogLoad: Full Startup: 88.17 seconds (BP compile: 0.52 seconds)
-[2015.09.07-08.51.31:685][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2015.09.07-08.51.32:156][  0]LogRenderer: Reallocating scene render targets to support 932x456 (Frame:2).
-[2015.09.07-08.51.33:169][  6]LogAssetRegistry: Asset discovery search completed in 37.3438 seconds
-[2015.09.07-08.51.33:169][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
-[2015.09.07-08.51.33:169][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
-[2015.09.07-08.55.11:814][944]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Johny\Downloads\Resources.png)
-[2015.09.07-08.55.11:870][944]LogTexture:Display: Building textures: Resources (BGRA8)
-[2015.09.07-08.55.14:947][ 32]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2015.09.07-08.57.17:734][353]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Johny\Downloads\Resources.png)
-[2015.09.07-08.57.17:762][353]LogTexture:Display: Building textures: Resources (BGRA8)
-[2015.09.07-08.59.31:712][183]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CA5B00FE0
-[2015.09.07-08.59.44:183][763]LogRenderer: Reallocating scene render targets to support 1272x740 (Frame:8555).
-[2015.09.07-09.02.36:909][428]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MrFirstProjectBP/Maps/FirstMap' took 0.033
-[2015.09.07-09.02.36:915][428]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MrFirstProject/Textures/Resources] ([1] browsable assets)...
-[2015.09.07-09.02.36:929][428]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MrFirstProject/Textures/Resources.Resources]
-[2015.09.07-09.02.36:929][428]OBJ SavePackage: Finished generating thumbnails for package [/Game/MrFirstProject/Textures/Resources]
-[2015.09.07-09.02.37:010][428]LogSavePackage: Save=78.843430ms
-[2015.09.07-09.02.37:010][428]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Resources_Auto11BB80DA64B4E883CEFA429B9B6D43A67.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Game/MrFirstProject/Textures/Resources_Auto1.uasset'
-[2015.09.07-09.02.37:011][428]LogSavePackage: Total save time: 80.159549ms
-[2015.09.07-09.02.37:011][428]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Game/MrFirstProject/Textures/Resources_Auto1.uasset
-[2015.09.07-09.02.37:015][428]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MrFirstProject/Textures/Resources_Sprite] ([1] browsable assets)...
-[2015.09.07-09.02.37:033][428]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/MrFirstProject/Textures/Resources_Sprite.Resources_Sprite]
-[2015.09.07-09.02.37:033][428]OBJ SavePackage: Finished generating thumbnails for package [/Game/MrFirstProject/Textures/Resources_Sprite]
-[2015.09.07-09.02.37:054][428]LogSavePackage: Save=19.846840ms
-[2015.09.07-09.02.37:055][428]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Resources_Sprite_Auto11819566C4FB67510DD2DAABBF2E7F5EE.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Game/MrFirstProject/Textures/Resources_Sprite_Auto1.uasset'
-[2015.09.07-09.02.37:055][428]LogSavePackage: Total save time: 21.004442ms
-[2015.09.07-09.02.37:055][428]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Game/MrFirstProject/Textures/Resources_Sprite_Auto1.uasset
-[2015.09.07-09.02.37:055][428]LogFileHelpers: Auto-saving content packages took 0.145
-[2015.09.07-09.06.20:849][940]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-09.06.20:849][940]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-09.06.23:735][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/Resources_Iron" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Resources_Iron.uasset" SILENT=true
-[2015.09.07-09.06.23:761][ 64]LogSavePackage: Save=23.912041ms
-[2015.09.07-09.06.23:761][ 64]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Resources_Iron0435AED6437CF745C80B37BDD3128F68.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Resources_Iron.uasset'
-[2015.09.07-09.06.23:763][ 64]LogSavePackage: Total save time: 26.224531ms
-[2015.09.07-09.06.23:763][ 64]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Resources_Iron.uasset
-[2015.09.07-09.08.07:489][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/Resources_Wood" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Resources_Wood.uasset" SILENT=true
-[2015.09.07-09.08.07:511][468]LogSavePackage: Save=20.706438ms
-[2015.09.07-09.08.07:511][468]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Resources_Wood01BAB97F41B2E554AF11378565969835.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Resources_Wood.uasset'
-[2015.09.07-09.08.07:514][468]LogSavePackage: Total save time: 23.764849ms
-[2015.09.07-09.08.07:514][468]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Resources_Wood.uasset
-[2015.09.07-09.10.17:256][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/Resources_Money" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Resources_Money.uasset" SILENT=true
-[2015.09.07-09.10.17:274][685]LogSavePackage: Save=16.170223ms
-[2015.09.07-09.10.17:274][685]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Resources_MoneyC86B00C54221A70105B3D3AB5A8E84A3.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Resources_Money.uasset'
-[2015.09.07-09.10.17:276][685]LogSavePackage: Total save time: 18.768948ms
-[2015.09.07-09.10.17:276][685]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Resources_Money.uasset
-[2015.09.07-09.10.17:388][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CBF4298A0
-[2015.09.07-09.10.17:389][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CBF42B9C0
-[2015.09.07-09.10.57:822][702]LogSavePackage: Save=19.760336ms
-[2015.09.07-09.10.57:823][702]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Resources_Iron14C6F71B45F627AC95EFA0897E93FC51.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Resources_Iron.uasset'
-[2015.09.07-09.10.57:825][702]LogSavePackage: Total save time: 22.273008ms
-[2015.09.07-09.10.57:825][702]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Resources_Iron.uasset
-[2015.09.07-09.10.57:953][702]LogSavePackage: Save=30.061018ms
-[2015.09.07-09.10.57:953][702]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Resources_MoneyC9173CAB4FF91E4394D7BBA9566DB7F3.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Resources_Money.uasset'
-[2015.09.07-09.10.57:957][702]LogSavePackage: Total save time: 34.172412ms
-[2015.09.07-09.10.57:957][702]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Resources_Money.uasset
-[2015.09.07-09.10.58:015][702]LogSavePackage: Save=19.783886ms
-[2015.09.07-09.10.58:015][702]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Resources_WoodEE7DBE1C475369F32DE04FB0B15070A6.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Resources_Wood.uasset'
-[2015.09.07-09.10.58:018][702]LogSavePackage: Total save time: 22.393931ms
-[2015.09.07-09.10.58:018][702]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Resources_Wood.uasset
-[2015.09.07-09.11.31:350][222]Cmd: TRANSACTION UNDO
-[2015.09.07-09.11.31:350][222]LogEditorTransaction: Undo Modification in Viewport
-[2015.09.07-09.11.32:917][284]Cmd: TRANSACTION UNDO
-[2015.09.07-09.11.32:917][284]LogEditorTransaction: Undo Modification in Viewport
-[2015.09.07-09.11.46:502][855]Cmd: TRANSACTION UNDO
-[2015.09.07-09.11.46:502][855]LogEditorTransaction: Undo Modification in Viewport
-[2015.09.07-09.13.10:586][172]Cmd: TRANSACTION UNDO
-[2015.09.07-09.13.10:586][172]LogEditorTransaction: Undo Modification in Viewport
-[2015.09.07-09.14.58:335][741]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CBDA1B100
-[2015.09.07-09.14.58:336][741]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CBFA22B60
-[2015.09.07-09.14.58:337][741]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CC0890B80
-[2015.09.07-09.14.58:382][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/Resources" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Resources.uasset" SILENT=true
-[2015.09.07-09.14.58:439][741]LogSavePackage: Save=54.445885ms
-[2015.09.07-09.14.58:439][741]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/ResourcesB5683D07420FF81A078B5C9AF771E1C0.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Resources.uasset'
-[2015.09.07-09.14.58:443][741]LogSavePackage: Total save time: 59.015613ms
-[2015.09.07-09.14.58:443][741]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Resources.uasset
-[2015.09.07-09.14.58:467][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/Resources_Sprite" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Resources_Sprite.uasset" SILENT=true
-[2015.09.07-09.14.58:493][741]LogSavePackage: Save=23.474995ms
-[2015.09.07-09.14.58:493][741]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Resources_Sprite8B26257D4C7C76B6A92524BC32D3134F.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Resources_Sprite.uasset'
-[2015.09.07-09.14.58:495][741]LogSavePackage: Total save time: 25.779787ms
-[2015.09.07-09.14.58:495][741]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Resources_Sprite.uasset
-[2015.09.07-09.14.58:520][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/Resources_Sprite2" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Resources_Sprite2.uasset" SILENT=true
-[2015.09.07-09.14.58:547][741]LogSavePackage: Save=25.438755ms
-[2015.09.07-09.14.58:547][741]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Resources_Sprite23F9B183F4677CD18DCD331BDD18F2C79.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Resources_Sprite2.uasset'
-[2015.09.07-09.14.58:549][741]LogSavePackage: Total save time: 27.832769ms
-[2015.09.07-09.14.58:549][741]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Resources_Sprite2.uasset
-[2015.09.07-09.14.58:576][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/Resources_Sprite3" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Resources_Sprite3.uasset" SILENT=true
-[2015.09.07-09.14.58:620][741]LogSavePackage: Save=26.441921ms
-[2015.09.07-09.14.58:620][741]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Resources_Sprite3356ECA934A724BFA9415E0B51C8D522F.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Resources_Sprite3.uasset'
-[2015.09.07-09.14.58:622][741]LogSavePackage: Total save time: 28.772980ms
-[2015.09.07-09.14.58:622][741]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Resources_Sprite3.uasset
-[2015.09.07-09.15.50:165][949]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-09.15.50:165][949]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-09.15.57:427][325]LogSavePackage: Save=24.957779ms
-[2015.09.07-09.15.57:427][325]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Resources_Sprite78EA582B41061B41515395AD020DBA85.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Resources_Sprite.uasset'
-[2015.09.07-09.15.57:429][325]LogSavePackage: Total save time: 27.497169ms
-[2015.09.07-09.15.57:429][325]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Resources_Sprite.uasset
-[2015.09.07-09.15.57:484][325]LogSavePackage: Save=23.626715ms
-[2015.09.07-09.15.57:484][325]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Resources_Sprite276110BB04755C006EA0E738E6BCF0D8C.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Resources_Sprite2.uasset'
-[2015.09.07-09.15.57:486][325]LogSavePackage: Total save time: 26.147086ms
-[2015.09.07-09.15.57:486][325]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Resources_Sprite2.uasset
-[2015.09.07-09.15.57:539][325]LogSavePackage: Save=23.428799ms
-[2015.09.07-09.15.57:539][325]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Resources_Sprite30AD4ED6A4CCC1FCDABFAE6A1C08AC809.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Resources_Sprite3.uasset'
-[2015.09.07-09.15.57:541][325]LogSavePackage: Total save time: 25.916561ms
-[2015.09.07-09.15.57:541][325]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Resources_Sprite3.uasset
-[2015.09.07-09.16.09:865][905]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-09.16.09:865][905]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-09.16.31:148][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Sprites/Resources/Pic_wood" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Pic_wood.uasset" SILENT=true
-[2015.09.07-09.16.31:173][933]LogSavePackage: Save=23.195559ms
-[2015.09.07-09.16.31:173][933]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Pic_wood38D718F84003CA5AA9D42F88C4A3B24C.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Pic_wood.uasset'
-[2015.09.07-09.16.31:175][933]LogSavePackage: Total save time: 25.677431ms
-[2015.09.07-09.16.31:175][933]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Pic_wood.uasset
-[2015.09.07-09.16.40:065][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Sprites/Resources/Pic_money" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Pic_money.uasset" SILENT=true
-[2015.09.07-09.16.40:091][361]LogSavePackage: Save=24.051079ms
-[2015.09.07-09.16.40:091][361]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Pic_money51772F55478710D39C1B18B11580E6E5.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Pic_money.uasset'
-[2015.09.07-09.16.40:093][361]LogSavePackage: Total save time: 26.613571ms
-[2015.09.07-09.16.40:094][361]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Pic_money.uasset
-[2015.09.07-09.16.48:241][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Sprites/Resources/Pic_iron" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Pic_iron.uasset" SILENT=true
-[2015.09.07-09.16.48:266][739]LogSavePackage: Save=23.302441ms
-[2015.09.07-09.16.48:266][739]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Pic_ironF6C1030D4FA60DBE4341DA972F6E5DA6.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Pic_iron.uasset'
-[2015.09.07-09.16.48:268][739]LogSavePackage: Total save time: 25.624443ms
-[2015.09.07-09.16.48:268][739]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Pic_iron.uasset
-[2015.09.07-09.16.59:235][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Sprites/Resources/Res_Iron" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Res_Iron.uasset" SILENT=true
-[2015.09.07-09.16.59:256][253]LogSavePackage: Save=18.962786ms
-[2015.09.07-09.16.59:256][253]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Res_IronEF5DFC5344B73A47DA490481FB2425A3.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Res_Iron.uasset'
-[2015.09.07-09.16.59:258][253]LogSavePackage: Total save time: 21.493573ms
-[2015.09.07-09.16.59:258][253]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Res_Iron.uasset
-[2015.09.07-09.17.07:973][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Sprites/Resources/Res_Money" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Res_Money.uasset" SILENT=true
-[2015.09.07-09.17.07:990][662]LogSavePackage: Save=15.384448ms
-[2015.09.07-09.17.07:991][662]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Res_Money3C1BF1B842794E2231EB8EB52162FC87.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Res_Money.uasset'
-[2015.09.07-09.17.07:992][662]LogSavePackage: Total save time: 17.700560ms
-[2015.09.07-09.17.07:992][662]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Res_Money.uasset
-[2015.09.07-09.17.15:585][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Sprites/Resources/Res_Wood" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Res_Wood.uasset" SILENT=true
-[2015.09.07-09.17.15:627][ 15]LogSavePackage: Save=40.055092ms
-[2015.09.07-09.17.15:627][ 15]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Res_WoodFE833380479116AE8F0BCB95A5904BC3.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Res_Wood.uasset'
-[2015.09.07-09.17.15:629][ 15]LogSavePackage: Total save time: 42.543758ms
-[2015.09.07-09.17.15:629][ 15]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Resources/Res_Wood.uasset
-[2015.09.07-09.17.46:270][277]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/MrFirstProject/Sprites/Environment/Floor.Floor] BoxElems[0] invalid or has invalid transform
-[2015.09.07-09.17.52:217][452]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/MrFirstProject/Sprites/Environment/Floor.Floor] BoxElems[0] invalid or has invalid transform
-[2015.09.07-09.17.52:217][452]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/MrFirstProject/Sprites/Environment/Floor.Floor] BoxElems[0] invalid or has invalid transform
-[2015.09.07-09.17.52:939][482]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/MrFirstProject/Sprites/Environment/Floor.Floor] BoxElems[0] invalid or has invalid transform
-[2015.09.07-09.17.53:010][482]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/MrFirstProject/Sprites/Environment/Floor.Floor] BoxElems[0] invalid or has invalid transform
-[2015.09.07-09.17.55:913][600]Cmd: TRANSACTION UNDO
-[2015.09.07-09.17.55:913][600]LogEditorTransaction: Undo Create Actors
-[2015.09.07-09.17.58:527][723]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/MrFirstProject/Sprites/Environment/Floor.Floor] BoxElems[0] invalid or has invalid transform
-[2015.09.07-09.18.54:363][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/Floor_sprite" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_sprite.uasset" SILENT=true
-[2015.09.07-09.18.54:386][989]LogSavePackage: Save=21.022560ms
-[2015.09.07-09.18.54:386][989]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Floor_spriteAD85B69D458069B3F44F328B5F96A031.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_sprite.uasset'
-[2015.09.07-09.18.54:388][989]LogSavePackage: Total save time: 23.493562ms
-[2015.09.07-09.18.54:388][989]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_sprite.uasset
-[2015.09.07-09.18.54:397][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/Floor" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor.uasset" SILENT=true
-[2015.09.07-09.18.54:417][989]LogSavePackage: Save=4.481866ms
-[2015.09.07-09.18.54:417][989]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Floor2CA9F4AD4C7CCD1C11D13EB2C461EA1B.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor.uasset'
-[2015.09.07-09.18.54:419][989]LogSavePackage: Total save time: 20.410698ms
-[2015.09.07-09.18.54:419][989]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor.uasset
-[2015.09.07-09.18.57:539][156]LogSavePackage: Save=20.815132ms
-[2015.09.07-09.18.57:539][156]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Floor_sprite81B3F8B649D8B9BFFC236FB273BED5E7.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Environment/Floor_sprite.uasset'
-[2015.09.07-09.18.57:541][156]LogSavePackage: Total save time: 23.373093ms
-[2015.09.07-09.18.57:541][156]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Environment/Floor_sprite.uasset
-[2015.09.07-09.18.57:633][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CAFCDD760
-[2015.09.07-09.18.57:727][156]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/Floor" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor.uasset" SILENT=true
-[2015.09.07-09.18.57:743][156]LogSavePackage: Save=5.075613ms
-[2015.09.07-09.18.57:743][156]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Floor27F2F9FC4F4E2BF3DAE663B982A27992.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor.uasset'
-[2015.09.07-09.18.57:744][156]LogSavePackage: Total save time: 15.038434ms
-[2015.09.07-09.18.57:744][156]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor.uasset
-[2015.09.07-09.22.22:151][ 29]LogSavePackage: Save=213.210175ms
-[2015.09.07-09.22.22:151][ 29]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/ShinobiRetsuden2_BGsD4402F1F456415A6631BBF887DAB8DE8.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/ShinobiRetsuden2_BGs.uasset'
-[2015.09.07-09.22.22:153][ 29]LogSavePackage: Total save time: 234.672051ms
-[2015.09.07-09.22.22:153][ 29]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/ShinobiRetsuden2_BGs.uasset
-[2015.09.07-09.22.22:179][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Sprites/Environment/Floor" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Environment/Floor.uasset" SILENT=true
-[2015.09.07-09.22.22:249][ 29]LogSavePackage: Save=20.088234ms
-[2015.09.07-09.22.22:249][ 29]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Floor651207E841225174E45BA88534B18BCE.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Environment/Floor.uasset'
-[2015.09.07-09.22.22:266][ 29]LogSavePackage: Total save time: 46.958596ms
-[2015.09.07-09.22.22:266][ 29]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Environment/Floor.uasset
-[2015.09.07-09.22.35:853][546]Cmd: TRANSACTION UNDO
-[2015.09.07-09.22.35:853][546]LogEditorTransaction: Undo Set actor rotation
-[2015.09.07-09.22.49:175][987]Cmd: TRANSACTION UNDO
-[2015.09.07-09.22.49:175][987]LogEditorTransaction: Undo Set actor scale
-[2015.09.07-09.24.18:812][183]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-09.24.18:812][183]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-09.24.23:142][391]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Floor19)
-[2015.09.07-09.24.24:376][447]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Floor)
-[2015.09.07-09.25.09:261][102]LogSavePackage: Save=290.692200ms
-[2015.09.07-09.25.09:261][102]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/FirstMap3E8DD2B0456649ED37F1E4AF56CCD5F7.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProjectBP/Maps/FirstMap.umap'
-[2015.09.07-09.25.09:264][102]LogSavePackage: Total save time: 307.158623ms
-[2015.09.07-09.25.09:264][102]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProjectBP/Maps/FirstMap.umap
-[2015.09.07-09.25.09:326][102]LogFileHelpers: Saving map 'FirstMap' took 0.479
-[2015.09.07-09.25.09:348][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Sprites/Environment/Floor" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Environment/Floor.uasset" SILENT=true
-[2015.09.07-09.25.09:383][102]LogSavePackage: Save=19.138056ms
-[2015.09.07-09.25.09:383][102]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Floor33C6A6A4482A1572743705B6248C47F5.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Environment/Floor.uasset'
-[2015.09.07-09.25.09:385][102]LogSavePackage: Total save time: 35.040617ms
-[2015.09.07-09.25.09:385][102]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Sprites/Environment/Floor.uasset
-[2015.09.07-09.39.10:833][251]LogRenderer: Reallocating scene render targets to support 1272x744 (Frame:55862).
-[2015.09.07-09.40.43:502][221]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CBE04EFC0
-[2015.09.07-09.40.43:534][221]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MrFirstProjectBP/Maps/FirstMap' took 0.064
-[2015.09.07-09.40.43:540][221]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Paper2D/MaskedUnlitSpriteMaterial] ([1] browsable assets)...
-[2015.09.07-09.40.43:618][221]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Paper2D/MaskedUnlitSpriteMaterial.MaskedUnlitSpriteMaterial]
-[2015.09.07-09.40.43:618][221]OBJ SavePackage: Finished generating thumbnails for package [/Paper2D/MaskedUnlitSpriteMaterial]
-[2015.09.07-09.40.43:652][221]LogSavePackage: Save=17.738152ms
-[2015.09.07-09.40.43:652][221]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/MaskedUnlitSpriteMaterial_Auto2EF491D554F4BE5CDAE5292A3936DFB61.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Paper2D/MaskedUnlitSpriteMaterial_Auto2.uasset'
-[2015.09.07-09.40.43:653][221]LogSavePackage: Total save time: 32.853127ms
-[2015.09.07-09.40.43:653][221]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Paper2D/MaskedUnlitSpriteMaterial_Auto2.uasset
-[2015.09.07-09.40.43:653][221]LogFileHelpers: Auto-saving content packages took 0.117
-[2015.09.07-09.46.40:735][367]LogEditorViewport: Clicking Background
-[2015.09.07-09.46.47:225][671]LogActorFactory: Actor Factory created Cube
-[2015.09.07-09.46.47:752][691]LogActorFactory: Actor Factory created Cube
-[2015.09.07-09.47.30:103][ 70]LogTexture:Display: Building textures: 2DBackgroundTile (AutoDXT)
-[2015.09.07-09.47.30:747][ 70]LogMaterial: Missing cached shader map for material PrototypingSpriteMaterial, compiling. 
-[2015.09.07-09.48.06:347][475]Cmd: TRANSACTION UNDO
-[2015.09.07-09.48.06:347][475]LogEditorTransaction: Undo Create Actors
-[2015.09.07-09.48.20:673][165]Cmd: TRANSACTION UNDO
-[2015.09.07-09.48.20:673][165]LogEditorTransaction: Undo Create Actors
-[2015.09.07-09.48.21:528][199]Cmd: TRANSACTION UNDO
-[2015.09.07-09.48.21:528][199]LogEditorTransaction: Undo Edit Source Texture
-[2015.09.07-09.48.22:022][202]Cmd: TRANSACTION UNDO
-[2015.09.07-09.48.22:022][202]LogEditorTransaction: Undo Replace component used material
-[2015.09.07-09.48.32:371][678]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
-[2015.09.07-09.48.32:768][678]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
-[2015.09.07-09.48.32:777][678]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-09.48.36:438][755]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
-[2015.09.07-09.48.36:438][755]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.09.07-09.48.36:438][755]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.09.07-09.50.44:260][405]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CBFA20720
-[2015.09.07-09.50.44:376][405]LogSavePackage: Save=91.327072ms
-[2015.09.07-09.50.44:376][405]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/FirstMap_Auto3E155D1194BA18D53D0F75083D280F262.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Game/MrFirstProjectBP/Maps/FirstMap_Auto3.umap'
-[2015.09.07-09.50.44:377][405]LogSavePackage: Total save time: 107.554816ms
-[2015.09.07-09.50.44:377][405]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Game/MrFirstProjectBP/Maps/FirstMap_Auto3.umap
-[2015.09.07-09.50.44:379][405]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MrFirstProjectBP/Maps/FirstMap' took 0.155
-[2015.09.07-09.50.44:380][405]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.155
-[2015.09.07-09.50.44:386][405]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MrFirstProject/Sprites/Environment/NewMaterial] ([1] browsable assets)...
-[2015.09.07-09.50.44:443][405]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MrFirstProject/Sprites/Environment/NewMaterial.NewMaterial]
-[2015.09.07-09.50.44:443][405]OBJ SavePackage: Finished generating thumbnails for package [/Game/MrFirstProject/Sprites/Environment/NewMaterial]
-[2015.09.07-09.50.44:471][405]LogSavePackage: Save=25.710041ms
-[2015.09.07-09.50.44:471][405]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/NewMaterial_Auto32F94CE684B18B66148695ABCA62F4210.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Game/MrFirstProject/Sprites/Environment/NewMaterial_Auto3.uasset'
-[2015.09.07-09.50.44:472][405]LogSavePackage: Total save time: 27.100887ms
-[2015.09.07-09.50.44:472][405]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Game/MrFirstProject/Sprites/Environment/NewMaterial_Auto3.uasset
-[2015.09.07-09.50.44:472][405]LogFileHelpers: Auto-saving content packages took 0.090
-[2015.09.07-09.50.53:295][619]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-09.50.53:295][619]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-09.50.59:911][ 13]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
-[2015.09.07-09.50.59:923][ 13]LogMaterial: 0.000199 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-09.50.59:925][ 13]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2015.09.07-09.51.03:464][174]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
-[2015.09.07-09.51.03:464][174]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.09.07-09.51.03:464][174]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.09.07-09.51.18:592][522]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
-[2015.09.07-09.51.18:602][522]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-09.51.21:022][651]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
-[2015.09.07-09.51.21:022][651]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.09.07-09.51.21:022][651]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.09.07-09.51.38:910][718]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
-[2015.09.07-09.51.38:930][718]LogMaterial: 0.000138 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-09.51.38:933][718]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_0, compiling. 
-[2015.09.07-09.51.41:488][830]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
-[2015.09.07-09.51.41:488][830]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.09.07-09.51.41:488][830]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.09.07-09.52.16:395][459]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
-[2015.09.07-09.52.16:405][459]LogMaterial: 0.000111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-09.52.16:432][459]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_0, compiling. 
-[2015.09.07-09.52.18:525][554]LogEditorTransaction: Undo Use Current Texture
-[2015.09.07-09.52.18:553][554]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
-[2015.09.07-09.52.18:611][554]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
-[2015.09.07-09.52.18:626][554]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-09.52.18:651][554]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_0, compiling. 
-[2015.09.07-09.52.21:751][693]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
-[2015.09.07-09.52.21:751][693]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.09.07-09.52.21:751][693]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.09.07-09.52.21:881][699]LogEditorTransaction: Undo Move Node
-[2015.09.07-09.52.21:924][699]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
-[2015.09.07-09.52.21:940][699]LogMaterial: 0.000122 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-09.52.24:903][828]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
-[2015.09.07-09.52.24:903][828]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.09.07-09.52.24:903][828]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.09.07-09.54.32:762][123]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Johny\Downloads\Floor_1.png)
-[2015.09.07-09.54.32:773][123]LogTexture:Display: Building textures: Floor_1 (AutoDXT)
-[2015.09.07-09.54.50:089][604]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CAFC29B20
-[2015.09.07-09.55.04:018][955]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Floor)
-[2015.09.07-09.55.05:009][992]Cmd: DELETE
-[2015.09.07-09.55.05:009][992]Cmd: ACTOR DELETE
-[2015.09.07-09.55.05:205][992]LogEditorActor: Deleted Actor: PaperSpriteActor
-[2015.09.07-09.55.05:260][992]LogEditorActor: Deleted 1 Actors (0.072 secs)
-[2015.09.07-09.55.05:775][ 18]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.09.07-09.55.06:159][ 30]Cmd: DELETE
-[2015.09.07-09.55.06:159][ 30]Cmd: ACTOR DELETE
-[2015.09.07-09.55.06:160][ 30]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.09.07-09.55.06:195][ 30]LogEditorActor: Deleted 1 Actors (0.035 secs)
-[2015.09.07-09.55.22:467][643]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
-[2015.09.07-09.55.22:638][648]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
-[2015.09.07-09.55.22:833][648]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
-[2015.09.07-09.55.22:849][648]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-09.55.22:876][648]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.09.07-09.55.30:405][854]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.09.07-09.55.30:405][854]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-09.55.30:405][854]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-09.58.02:597][787]LogMaterialEditor: Saving and Compiling material Floor_1_Mat
-[2015.09.07-09.58.02:697][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/Floor_1_Mat" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1_Mat.uasset" SILENT=true
-[2015.09.07-09.58.02:726][787]LogSavePackage: Save=26.506233ms
-[2015.09.07-09.58.02:726][787]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Floor_1_MatF4F909634255D77499EA80AC8CBDBBB5.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1_Mat.uasset'
-[2015.09.07-09.58.02:731][787]LogSavePackage: Total save time: 31.472698ms
-[2015.09.07-09.58.02:731][787]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1_Mat.uasset
-[2015.09.07-09.58.10:371][103]LogActorFactory: Actor Factory created Cube
-[2015.09.07-09.58.10:667][116]LogActorFactory: Actor Factory created Cube
-[2015.09.07-09.58.43:760][381]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-09.58.43:891][381]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-09.58.43:900][381]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-09.58.43:924][381]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.09.07-09.58.48:067][525]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.09.07-09.58.48:067][525]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-09.58.48:067][525]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-09.59.29:145][853]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-09.59.29:159][853]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-09.59.29:169][853]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-09.59.33:150][ 30]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.09.07-09.59.33:150][ 30]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-09.59.33:150][ 30]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-09.59.41:658][434]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-09.59.41:693][434]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-09.59.41:704][434]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-09.59.48:688][750]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
-[2015.09.07-09.59.48:688][750]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
-[2015.09.07-09.59.48:688][750]MaterialEditorStats: Info Vertex shader: 70 instructions
-[2015.09.07-09.59.48:688][750]MaterialEditorStats: Info Texture samplers: 5/16
-[2015.09.07-09.59.50:942][871]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-09.59.50:959][871]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-09.59.50:970][871]LogMaterial: 0.000167 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-09.59.58:221][199]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
-[2015.09.07-09.59.58:222][199]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
-[2015.09.07-09.59.58:222][199]MaterialEditorStats: Info Vertex shader: 70 instructions
-[2015.09.07-09.59.58:222][199]MaterialEditorStats: Info Texture samplers: 5/16
-[2015.09.07-10.00.00:825][341]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.00.00:826][341]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
-[2015.09.07-10.00.00:826][341]LogMaterial:Warning: 	Dynamically lit translucency is not supported for BLEND_Modulate materials.
-[2015.09.07-10.00.00:826][341]LogMaterial:Warning: 	Separate translucency with BLEND_Modulate is not supported. Consider using BLEND_Translucent with black emissive
-[2015.09.07-10.00.00:832][341]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.00.00:832][341]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
-[2015.09.07-10.00.00:833][341]LogMaterial:Warning: 	Dynamically lit translucency is not supported for BLEND_Modulate materials.
-[2015.09.07-10.00.00:833][341]LogMaterial:Warning: 	Separate translucency with BLEND_Modulate is not supported. Consider using BLEND_Translucent with black emissive
-[2015.09.07-10.00.00:833][341]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.00.00:836][341]MaterialEditorStats:Error: Error [SM5] Dynamically lit translucency is not supported for BLEND_Modulate materials.
-[2015.09.07-10.00.00:836][341]MaterialEditorStats:Error: Error [SM5] Separate translucency with BLEND_Modulate is not supported. Consider using BLEND_Translucent with black emissive
-[2015.09.07-10.00.07:772][669]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.00.07:787][669]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.00.07:801][669]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.00.11:132][820]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.09.07-10.00.11:132][820]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-10.00.11:132][820]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-10.00.32:390][  2]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.00.32:397][  2]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.00.32:402][  2]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.00.33:976][ 73]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
-[2015.09.07-10.00.33:976][ 73]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.09.07-10.00.33:976][ 73]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.09.07-10.00.37:352][237]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.00.37:367][237]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.00.37:378][237]LogMaterial: 0.000147 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.00.40:122][361]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.09.07-10.00.40:122][361]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-10.00.40:122][361]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-10.00.56:117][ 97]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.00.56:132][ 97]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.00.56:142][ 97]LogMaterial: 0.000142 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.00.58:609][209]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
-[2015.09.07-10.00.58:609][209]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.09.07-10.00.58:609][209]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.09.07-10.01.00:624][301]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.01.00:638][301]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.01.00:648][301]LogMaterial: 0.000168 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.01.03:384][425]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.09.07-10.01.03:384][425]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-10.01.03:384][425]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-10.02.24:229][133]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.02.24:309][133]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.02.24:331][133]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.02.31:836][474]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.09.07-10.02.31:836][474]MaterialEditorStats: Info Vertex shader: 28 instructions
-[2015.09.07-10.02.31:836][474]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-10.02.34:652][584]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CBEA1E2A0
-[2015.09.07-10.02.34:653][584]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CB4B88F40
-[2015.09.07-10.02.34:893][584]LogSavePackage: Save=85.394127ms
-[2015.09.07-10.02.34:893][584]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/FirstMap712D8F9C41C4F8CCA314B9BB6523C08A.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProjectBP/Maps/FirstMap.umap'
-[2015.09.07-10.02.34:895][584]LogSavePackage: Total save time: 102.125943ms
-[2015.09.07-10.02.34:895][584]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProjectBP/Maps/FirstMap.umap
-[2015.09.07-10.02.34:957][584]LogFileHelpers: Saving map 'FirstMap' took 0.277
-[2015.09.07-10.02.34:963][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Paper2D/MaskedUnlitSpriteMaterial" FILE="../../../Engine/Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" SILENT=true
-[2015.09.07-10.02.34:985][584]LogSavePackage: Save=6.264920ms
-[2015.09.07-10.02.34:985][584]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/MaskedUnlitSpriteMaterial862C7CEC43D0CC8C6F34858F8BC00728.tmp' to '../../../Engine/Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset'
-[2015.09.07-10.02.34:987][584]LogSavePackage: Total save time: 22.191487ms
-[2015.09.07-10.02.34:987][584]LogSavePackage:Warning: Finished SavePackage ../../../Engine/Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset
-[2015.09.07-10.02.35:011][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/Floor_1" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1.uasset" SILENT=true
-[2015.09.07-10.02.35:045][584]LogSavePackage: Save=31.703222ms
-[2015.09.07-10.02.35:045][584]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Floor_18DEC62D240105F3579F466ADE3E504B1.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1.uasset'
-[2015.09.07-10.02.35:047][584]LogSavePackage: Total save time: 34.337267ms
-[2015.09.07-10.02.35:047][584]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1.uasset
-[2015.09.07-10.02.38:588][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.09.07-10.02.54:020][324]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.02.54:051][324]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.02.54:072][324]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.03.02:236][694]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.09.07-10.03.02:236][694]MaterialEditorStats: Info Vertex shader: 28 instructions
-[2015.09.07-10.03.02:236][694]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-10.03.10:390][ 38]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.03.10:419][ 38]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.03.10:442][ 38]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.03.14:432][219]LogMaterialEditor: Saving and Compiling material Floor_1_Mat
-[2015.09.07-10.03.16:078][219]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.03.16:217][219]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.03.16:265][219]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
-[2015.09.07-10.03.16:424][219]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
-[2015.09.07-10.03.16:474][219]LogMaterial: 0.001111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.03.28:384][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/Floor_1_Mat" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1_Mat.uasset" SILENT=true
-[2015.09.07-10.03.28:432][219]LogSavePackage: Save=27.014383ms
-[2015.09.07-10.03.28:432][219]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Floor_1_Mat5029B1784A154787F3DADE8AA845BB13.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1_Mat.uasset'
-[2015.09.07-10.03.28:434][219]LogSavePackage: Total save time: 48.934132ms
-[2015.09.07-10.03.28:434][219]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1_Mat.uasset
-[2015.09.07-10.03.28:441][219]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
-[2015.09.07-10.03.28:441][219]MaterialEditorStats: Info Vertex shader: 29 instructions
-[2015.09.07-10.03.28:441][219]MaterialEditorStats: Info Texture samplers: 4/16
-[2015.09.07-10.03.31:798][360]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.09.07-10.03.59:741][349]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.03.59:772][349]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.03.59:794][349]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.04.02:260][462]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.04.02:306][462]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.04.02:341][462]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.04.04:441][572]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.04.04:489][572]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.04.04:524][572]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.04.11:682][956]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.04.11:705][956]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.04.11:721][956]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.04.12:447][988]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.09.07-10.04.12:447][988]MaterialEditorStats: Info Vertex shader: 28 instructions
-[2015.09.07-10.04.12:447][988]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-10.04.14:860][112]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.09.07-10.04.14:860][112]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-10.04.14:860][112]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-10.12.35:717][ 41]LogSavePackage: Save=79.102036ms
-[2015.09.07-10.12.35:717][ 41]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/FirstMap_Auto4C664B26B496CF493B181E98F47FA9293.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Game/MrFirstProjectBP/Maps/FirstMap_Auto4.umap'
-[2015.09.07-10.12.35:733][ 41]LogSavePackage: Total save time: 109.771743ms
-[2015.09.07-10.12.35:733][ 41]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Game/MrFirstProjectBP/Maps/FirstMap_Auto4.umap
-[2015.09.07-10.12.35:736][ 41]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MrFirstProjectBP/Maps/FirstMap' took 0.154
-[2015.09.07-10.12.35:736][ 41]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.154
-[2015.09.07-10.18.42:145][141]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-10.18.42:145][141]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-10.19.26:690][845]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.19.26:700][845]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.19.29:383][979]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.19.29:399][979]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.19.29:431][979]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.09.07-10.19.32:363][113]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.09.07-10.19.32:363][113]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-10.19.32:363][113]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-10.20.01:245][425]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.20.01:256][425]LogMaterial: 0.000208 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.20.03:651][536]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.20.03:667][536]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.20.06:743][678]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
-[2015.09.07-10.20.06:743][678]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-10.20.06:744][678]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-10.20.22:219][426]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.20.22:230][426]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.20.24:818][545]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
-[2015.09.07-10.20.24:818][545]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-10.20.24:818][545]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-10.22.50:961][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/Floor_1" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1.uasset" SILENT=true
-[2015.09.07-10.22.51:001][299]LogSavePackage: Save=22.779346ms
-[2015.09.07-10.22.51:001][299]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Floor_193CE9CC644AC3CE1C1BB3FAF4D3413CE.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1.uasset'
-[2015.09.07-10.22.51:003][299]LogSavePackage: Total save time: 40.487155ms
-[2015.09.07-10.22.51:003][299]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1.uasset
-[2015.09.07-10.22.56:539][573]LogMaterialEditor: Applying material Floor_1_Mat
-[2015.09.07-10.22.57:496][573]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.22.57:536][573]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.22.57:565][573]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
-[2015.09.07-10.22.57:624][573]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
-[2015.09.07-10.22.57:647][573]LogMaterial: 0.001152 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.23.06:069][968]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
-[2015.09.07-10.23.06:069][968]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-10.23.06:069][968]MaterialEditorStats: Info Texture samplers: 4/16
-[2015.09.07-10.23.08:243][ 67]LogMaterialEditor: Saving and Compiling material Floor_1_Mat
-[2015.09.07-10.23.08:322][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/Floor_1_Mat" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1_Mat.uasset" SILENT=true
-[2015.09.07-10.23.08:364][ 67]LogSavePackage: Save=25.596815ms
-[2015.09.07-10.23.08:364][ 67]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Floor_1_Mat584F56784ECB340C3E95A9BC379E3CB1.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1_Mat.uasset'
-[2015.09.07-10.23.08:366][ 67]LogSavePackage: Total save time: 41.743487ms
-[2015.09.07-10.23.08:366][ 67]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1_Mat.uasset
-[2015.09.07-10.23.14:831][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.09.07-10.23.15:381][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.09.07-10.24.10:932][640]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.24.10:942][640]LogMaterial: 0.000146 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.24.14:675][810]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
-[2015.09.07-10.24.14:675][810]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-10.24.14:675][810]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-10.37.21:973][693]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.37.21:989][693]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.37.22:000][693]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.37.25:971][873]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
-[2015.09.07-10.37.25:971][873]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-10.37.25:971][873]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-10.37.30:624][101]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.37.30:634][101]LogMaterial: 0.000174 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.37.33:548][235]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
-[2015.09.07-10.37.33:548][235]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-10.37.33:548][235]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-10.37.35:054][325]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.37.35:064][325]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.37.35:095][325]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.09.07-10.37.37:885][466]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.09.07-10.37.37:885][466]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-10.37.37:885][466]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-10.37.43:779][735]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.37.43:788][735]LogMaterial: 0.000091 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.37.46:663][867]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.09.07-10.37.46:663][867]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-10.37.46:663][867]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-10.37.47:336][898]LogMaterialEditor: Applying material Floor_1_Mat
-[2015.09.07-10.37.48:319][898]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.37.48:360][898]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.37.48:398][898]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
-[2015.09.07-10.37.48:458][898]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
-[2015.09.07-10.37.48:481][898]LogMaterial: 0.001025 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.37.48:821][912]LogMaterialEditor: Saving and Compiling material Floor_1_Mat
-[2015.09.07-10.37.53:007][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/Floor_1_Mat" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1_Mat.uasset" SILENT=true
-[2015.09.07-10.37.53:051][912]LogSavePackage: Save=25.760311ms
-[2015.09.07-10.37.53:051][912]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Floor_1_MatB544D58C403475BDCB90D089DA686BC6.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1_Mat.uasset'
-[2015.09.07-10.37.53:053][912]LogSavePackage: Total save time: 44.364400ms
-[2015.09.07-10.37.53:053][912]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1_Mat.uasset
-[2015.09.07-10.37.53:059][912]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
-[2015.09.07-10.37.53:059][912]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-10.37.53:059][912]MaterialEditorStats: Info Texture samplers: 4/16
-[2015.09.07-10.37.58:146][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.09.07-10.38.23:717][112]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-10.38.23:717][112]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-10.38.35:447][815]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.38.35:458][815]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.38.41:301][ 89]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.09.07-10.38.41:301][ 89]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-10.38.41:301][ 89]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-10.39.16:910][420]LogPrimitiveComponent: Zero scaling not supported (/Game/MrFirstProjectBP/Maps/FirstMap.FirstMap:PersistentLevel.Cube_7.StaticMeshComponent0)
-[2015.09.07-10.39.16:910][420]LogPrimitiveComponent: Zero scaling not supported (/Game/MrFirstProjectBP/Maps/FirstMap.FirstMap:PersistentLevel.Cube_7.StaticMeshComponent0)
-[2015.09.07-10.41.13:977][360]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.09.07-10.41.22:607][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.09.07-10.41.44:086][740]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.41.44:097][740]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.41.47:206][903]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.41.47:222][903]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.41.50:007][ 30]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.09.07-10.41.50:007][ 30]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-10.41.50:007][ 30]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-10.41.57:382][400]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-10.41.57:392][400]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-10.42.00:051][530]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.09.07-10.42.00:051][530]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-10.42.00:051][530]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-10.42.24:948][528]LogEditorViewport: Clicking Background
-[2015.09.07-10.42.26:131][582]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.09.07-10.42.55:335][969]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
-[2015.09.07-10.43.33:062][655]LogSavePackage: Save=86.233345ms
-[2015.09.07-10.43.33:062][655]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/FirstMap_Auto5CD992014488424E6F05378939A7D818D.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Game/MrFirstProjectBP/Maps/FirstMap_Auto5.umap'
-[2015.09.07-10.43.33:063][655]LogSavePackage: Total save time: 101.755925ms
-[2015.09.07-10.43.33:063][655]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Game/MrFirstProjectBP/Maps/FirstMap_Auto5.umap
-[2015.09.07-10.43.33:065][655]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MrFirstProjectBP/Maps/FirstMap' took 0.144
-[2015.09.07-10.43.33:065][655]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.144
-[2015.09.07-10.58.54:480][749]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-10.58.54:480][749]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-11.01.02:186][499]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-11.01.02:186][499]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-11.02.39:821][319]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-11.02.39:821][319]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-11.02.45:550][593]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-11.02.45:560][593]LogMaterial: 0.000093 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-11.02.49:928][781]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.09.07-11.02.49:928][781]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-11.02.49:928][781]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-11.03.00:431][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.09.07-11.03.10:415][769]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-11.03.10:415][769]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-11.03.45:756][622]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-11.03.45:766][622]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-11.03.46:752][666]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-11.03.46:767][666]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-11.03.50:335][835]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.09.07-11.03.50:335][835]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.07-11.03.50:335][835]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.09.07-11.03.56:991][100]LogSavePackage: Save=85.717041ms
-[2015.09.07-11.03.56:991][100]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/FirstMapBC9AFB934F475C421D324DA024D714E3.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProjectBP/Maps/FirstMap.umap'
-[2015.09.07-11.03.56:993][100]LogSavePackage: Total save time: 103.210628ms
-[2015.09.07-11.03.56:993][100]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProjectBP/Maps/FirstMap.umap
-[2015.09.07-11.03.57:057][100]LogFileHelpers: Saving map 'FirstMap' took 0.279
-[2015.09.07-11.04.31:350][941]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.09.07-11.05.01:971][475]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.09.07-11.05.03:338][475]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 107 classes and 0 folders.
-[2015.09.07-11.13.57:685][825]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MrFirstProjectBP/Maps/FirstMap' took 0.092
-[2015.09.07-11.13.57:694][825]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MrFirstProject/Textures/NewBlueprint] ([1] browsable assets)...
-[2015.09.07-11.13.57:694][825]OBJ SavePackage: Finished generating thumbnails for package [/Game/MrFirstProject/Textures/NewBlueprint]
-[2015.09.07-11.13.57:716][825]LogSavePackage: Save=20.997196ms
-[2015.09.07-11.13.57:716][825]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/NewBlueprint_Auto61AD0714343439DC11CBF058FA381B163.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Game/MrFirstProject/Textures/NewBlueprint_Auto6.uasset'
-[2015.09.07-11.13.57:718][825]LogSavePackage: Total save time: 22.578262ms
-[2015.09.07-11.13.57:718][825]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Game/MrFirstProject/Textures/NewBlueprint_Auto6.uasset
-[2015.09.07-11.13.57:718][825]LogFileHelpers: Auto-saving content packages took 0.032
-[2015.09.07-11.20.40:078][ 33]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-11.20.40:078][ 33]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-13.12.03:842][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/NewBlueprint" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/NewBlueprint.uasset" SILENT=true
-[2015.09.07-13.12.03:863][518]LogSavePackage: Save=19.265774ms
-[2015.09.07-13.12.03:863][518]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/NewBlueprint7A2DC1984F1F71F8D7D703862FDA04C8.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/NewBlueprint.uasset'
-[2015.09.07-13.12.03:865][518]LogSavePackage: Total save time: 21.720022ms
-[2015.09.07-13.12.03:865][518]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/NewBlueprint.uasset
-[2015.09.07-13.12.15:551][569]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2015.09.07-13.12.15:590][569]LogMaterial: 0.000151 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-13.12.15:617][569]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
-[2015.09.07-13.12.15:674][569]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
-[2015.09.07-13.12.15:695][569]LogMaterial: 0.001172 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.07-13.12.21:877][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/Floor_1_Mat" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1_Mat.uasset" SILENT=true
-[2015.09.07-13.12.21:919][569]LogSavePackage: Save=24.808323ms
-[2015.09.07-13.12.21:919][569]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Floor_1_MatA46B57C54DEBD16B96385082EAC1FB13.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1_Mat.uasset'
-[2015.09.07-13.12.21:921][569]LogSavePackage: Total save time: 42.365316ms
-[2015.09.07-13.12.21:921][569]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1_Mat.uasset
-[2015.09.07-13.12.22:728][570]Cmd: QUIT_EDITOR
-[2015.09.07-13.12.22:965][570]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.07-13.12.23:231][570]LogExit: Preparing to exit.
-[2015.09.07-13.12.24:467][570]LogExit: Editor shut down
-[2015.09.07-13.12.24:471][570]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CA454EE80
-[2015.09.07-13.12.24:477][570]LogExit: Transaction tracking system shut down
-[2015.09.07-13.12.24:481][570]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CC33D7920
-[2015.09.07-13.12.24:493][570]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CA64C9440
-[2015.09.07-13.12.24:497][570]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CCBC6DDA0
-[2015.09.07-13.12.24:498][570]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CC766F560
-[2015.09.07-13.12.24:498][570]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CBED5E3E0
-[2015.09.07-13.12.24:498][570]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CC70E8F40
-[2015.09.07-13.12.24:813][570]LogExit: Object subsystem successfully closed.
-[2015.09.07-13.12.24:833][570]LogD3D11RHI: Shutdown
-[2015.09.07-13.12.24:833][570]LogD3D11RHI: CleanupD3DDevice
-[2015.09.07-13.12.24:936][570]LogD3D11RHI: ~FD3D11DynamicRHI
-[2015.09.07-13.12.24:960][570]LogModuleManager: Shutting down and abandoning module BlueprintGraph (201)
-[2015.09.07-13.12.24:960][570]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (200)
-[2015.09.07-13.12.24:960][570]LogModuleManager: Shutting down and abandoning module MaterialEditor (199)
-[2015.09.07-13.12.24:960][570]LogModuleManager: Shutting down and abandoning module TextureEditor (198)
-[2015.09.07-13.12.24:960][570]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
-[2015.09.07-13.12.24:960][570]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
-[2015.09.07-13.12.24:960][570]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
-[2015.09.07-13.12.24:960][570]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
-[2015.09.07-13.12.24:960][570]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
-[2015.09.07-13.12.24:966][570]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
-[2015.09.07-13.12.24:966][570]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
-[2015.09.07-13.12.24:966][570]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
-[2015.09.07-13.12.24:966][570]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
-[2015.09.07-13.12.24:966][570]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
-[2015.09.07-13.12.24:967][570]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
-[2015.09.07-13.12.24:967][570]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
-[2015.09.07-13.12.24:967][570]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
-[2015.09.07-13.12.24:967][570]LogModuleManager: Shutting down and abandoning module BspMode (184)
-[2015.09.07-13.12.24:967][570]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
-[2015.09.07-13.12.24:967][570]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
-[2015.09.07-13.12.24:967][570]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
-[2015.09.07-13.12.24:967][570]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
-[2015.09.07-13.12.24:967][570]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
-[2015.09.07-13.12.24:967][570]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
-[2015.09.07-13.12.24:967][570]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
-[2015.09.07-13.12.24:967][570]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
-[2015.09.07-13.12.24:967][570]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
-[2015.09.07-13.12.24:967][570]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
-[2015.09.07-13.12.24:967][570]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
-[2015.09.07-13.12.24:967][570]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
-[2015.09.07-13.12.25:488][570]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
-[2015.09.07-13.12.25:488][570]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
-[2015.09.07-13.12.25:488][570]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
-[2015.09.07-13.12.25:488][570]LogModuleManager: Shutting down and abandoning module MergeActors (168)
-[2015.09.07-13.12.25:488][570]LogModuleManager: Shutting down and abandoning module SizeMap (167)
-[2015.09.07-13.12.25:488][570]LogModuleManager: Shutting down and abandoning module TreeMap (166)
-[2015.09.07-13.12.25:488][570]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
-[2015.09.07-13.12.25:488][570]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
-[2015.09.07-13.12.25:488][570]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
-[2015.09.07-13.12.25:488][570]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
-[2015.09.07-13.12.25:488][570]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
-[2015.09.07-13.12.25:488][570]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
-[2015.09.07-13.12.25:488][570]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
-[2015.09.07-13.12.25:488][570]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
-[2015.09.07-13.12.25:488][570]LogModuleManager: Shutting down and abandoning module XmlParser (157)
-[2015.09.07-13.12.25:488][570]LogModuleManager: Shutting down and abandoning module Blutility (156)
-[2015.09.07-13.12.25:488][570]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
-[2015.09.07-13.12.25:489][570]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
-[2015.09.07-13.12.25:489][570]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
-[2015.09.07-13.12.25:489][570]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
-[2015.09.07-13.12.25:489][570]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
-[2015.09.07-13.12.25:489][570]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
-[2015.09.07-13.12.25:489][570]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
-[2015.09.07-13.12.25:489][570]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
-[2015.09.07-13.12.25:489][570]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
-[2015.09.07-13.12.25:489][570]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
-[2015.09.07-13.12.25:489][570]LogModuleManager: Shutting down and abandoning module AutomationController (145)
-[2015.09.07-13.12.25:489][570]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
-[2015.09.07-13.12.25:489][570]LogModuleManager: Shutting down and abandoning module Layers (143)
-[2015.09.07-13.12.25:489][570]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
-[2015.09.07-13.12.25:489][570]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
-[2015.09.07-13.12.25:489][570]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
-[2015.09.07-13.12.25:490][570]LogModuleManager: Shutting down and abandoning module Persona (139)
-[2015.09.07-13.12.25:490][570]LogModuleManager: Shutting down and abandoning module Kismet (138)
-[2015.09.07-13.12.25:490][570]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
-[2015.09.07-13.12.25:490][570]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
-[2015.09.07-13.12.25:492][570]LogModuleManager: Shutting down and abandoning module Toolbox (135)
-[2015.09.07-13.12.25:492][570]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
-[2015.09.07-13.12.25:492][570]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
-[2015.09.07-13.12.25:492][570]LogModuleManager: Shutting down and abandoning module OutputLog (132)
-[2015.09.07-13.12.25:492][570]LogModuleManager: Shutting down and abandoning module GammaUI (131)
-[2015.09.07-13.12.25:492][570]LogModuleManager: Shutting down and abandoning module Documentation (130)
-[2015.09.07-13.12.25:492][570]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
-[2015.09.07-13.12.25:493][570]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
-[2015.09.07-13.12.25:493][570]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
-[2015.09.07-13.12.25:493][570]LogModuleManager: Shutting down and abandoning module Analytics (126)
-[2015.09.07-13.12.25:493][570]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
-[2015.09.07-13.12.25:493][570]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
-[2015.09.07-13.12.25:493][570]LogModuleManager: Shutting down and abandoning module AIModule (123)
-[2015.09.07-13.12.25:493][570]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
-[2015.09.07-13.12.25:743][570]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
-[2015.09.07-13.12.25:743][570]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
-[2015.09.07-13.12.25:743][570]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
-[2015.09.07-13.12.25:743][570]LogModuleManager: Shutting down and abandoning module SteamVR (118)
-[2015.09.07-13.12.25:743][570]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
-[2015.09.07-13.12.25:743][570]LogModuleManager: Shutting down and abandoning module OculusRift (116)
-[2015.09.07-13.12.25:743][570]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
-[2015.09.07-13.12.25:743][570]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
-[2015.09.07-13.12.25:751][570]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
-[2015.09.07-13.12.25:751][570]LogModuleManager: Shutting down and abandoning module CableComponent (112)
-[2015.09.07-13.12.25:751][570]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
-[2015.09.07-13.12.25:751][570]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
-[2015.09.07-13.12.25:751][570]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
-[2015.09.07-13.12.25:751][570]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
-[2015.09.07-13.12.25:751][570]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
-[2015.09.07-13.12.25:751][570]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
-[2015.09.07-13.12.25:751][570]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
-[2015.09.07-13.12.25:751][570]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
-[2015.09.07-13.12.25:751][570]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
-[2015.09.07-13.12.25:751][570]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
-[2015.09.07-13.12.25:751][570]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
-[2015.09.07-13.12.25:752][570]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
-[2015.09.07-13.12.25:752][570]LogModuleManager: Shutting down and abandoning module SourceControl (99)
-[2015.09.07-13.12.25:752][570]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
-[2015.09.07-13.12.25:752][570]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
-[2015.09.07-13.12.25:752][570]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
-[2015.09.07-13.12.25:752][570]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
-[2015.09.07-13.12.25:752][570]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
-[2015.09.07-13.12.25:752][570]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
-[2015.09.07-13.12.25:752][570]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2015.09.07-13.12.25:752][570]LogModuleManager: Shutting down and abandoning module MainFrame (91)
-[2015.09.07-13.12.25:752][570]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
-[2015.09.07-13.12.25:754][570]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
-[2015.09.07-13.12.25:758][570]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
-[2015.09.07-13.12.25:884][570]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
-[2015.09.07-13.12.25:886][570]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
-[2015.09.07-13.12.25:886][570]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
-[2015.09.07-13.12.25:988][570]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
-[2015.09.07-13.12.25:988][570]LogModuleManager: Shutting down and abandoning module Paper2D (83)
-[2015.09.07-13.12.25:988][570]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
-[2015.09.07-13.12.25:988][570]LogModuleManager: Shutting down and abandoning module Media (81)
-[2015.09.07-13.12.25:988][570]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
-[2015.09.07-13.12.25:989][570]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
-[2015.09.07-13.12.25:989][570]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
-[2015.09.07-13.12.25:989][570]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
-[2015.09.07-13.12.25:989][570]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
-[2015.09.07-13.12.25:989][570]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
-[2015.09.07-13.12.25:989][570]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
-[2015.09.07-13.12.25:989][570]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
-[2015.09.07-13.12.25:989][570]LogModuleManager: Shutting down and abandoning module MessageLog (72)
-[2015.09.07-13.12.25:989][570]LogModuleManager: Shutting down and abandoning module Sequencer (71)
-[2015.09.07-13.12.25:989][570]LogModuleManager: Shutting down and abandoning module AssetTools (70)
-[2015.09.07-13.12.25:989][570]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
-[2015.09.07-13.12.25:989][570]LogModuleManager: Shutting down and abandoning module UMG (68)
-[2015.09.07-13.12.25:989][570]LogModuleManager: Shutting down and abandoning module Slate (67)
-[2015.09.07-13.12.25:989][570]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
-[2015.09.07-13.12.25:992][570]LogModuleManager: Shutting down and abandoning module SessionServices (65)
-[2015.09.07-13.12.25:992][570]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
-[2015.09.07-13.12.25:992][570]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
-[2015.09.07-13.12.25:992][570]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
-[2015.09.07-13.12.25:992][570]LogModuleManager: Shutting down and abandoning module Networking (60)
-[2015.09.07-13.12.25:992][570]LogModuleManager: Shutting down and abandoning module Core (59)
-[2015.09.07-13.12.25:992][570]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
-[2015.09.07-13.12.25:992][570]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
-[2015.09.07-13.12.25:992][570]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
-[2015.09.07-13.12.25:992][570]LogModuleManager: Shutting down and abandoning module CookingStats (55)
-[2015.09.07-13.12.25:993][570]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
-[2015.09.07-13.12.26:024][570]LogDerivedDataCache: Shutdown
-[2015.09.07-13.12.26:024][570]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
-[2015.09.07-13.12.26:024][570]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
-[2015.09.07-13.12.26:024][570]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
-[2015.09.07-13.12.26:024][570]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
-[2015.09.07-13.12.26:024][570]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
-[2015.09.07-13.12.26:024][570]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
-[2015.09.07-13.12.26:024][570]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
-[2015.09.07-13.12.26:024][570]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
-[2015.09.07-13.12.26:024][570]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
-[2015.09.07-13.12.26:024][570]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
-[2015.09.07-13.12.26:024][570]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
-[2015.09.07-13.12.26:024][570]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
-[2015.09.07-13.12.26:024][570]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
-[2015.09.07-13.12.26:024][570]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
-[2015.09.07-13.12.26:024][570]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
-[2015.09.07-13.12.26:024][570]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
-[2015.09.07-13.12.26:024][570]LogModuleManager: Shutting down and abandoning module Messaging (37)
-[2015.09.07-13.12.26:024][570]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
-[2015.09.07-13.12.26:024][570]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
-[2015.09.07-13.12.26:024][570]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
-[2015.09.07-13.12.26:024][570]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
-[2015.09.07-13.12.26:025][570]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
-[2015.09.07-13.12.26:025][570]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
-[2015.09.07-13.12.26:025][570]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
-[2015.09.07-13.12.26:025][570]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
-[2015.09.07-13.12.26:025][570]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
-[2015.09.07-13.12.26:025][570]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
-[2015.09.07-13.12.26:025][570]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
-[2015.09.07-13.12.26:025][570]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
-[2015.09.07-13.12.26:025][570]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
-[2015.09.07-13.12.26:025][570]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
-[2015.09.07-13.12.26:025][570]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
-[2015.09.07-13.12.26:025][570]LogModuleManager: Shutting down and abandoning module InputCore (21)
-[2015.09.07-13.12.26:025][570]LogModuleManager: Shutting down and abandoning module Settings (20)
-[2015.09.07-13.12.26:025][570]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2015.09.07-13.12.26:025][570]LogModuleManager: Shutting down and abandoning module HTTP (17)
-[2015.09.07-13.12.28:028][570]LogModuleManager: Shutting down and abandoning module XMPP (16)
-[2015.09.07-13.12.28:028][570]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2015.09.07-13.12.28:028][570]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2015.09.07-13.12.28:028][570]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2015.09.07-13.12.28:028][570]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2015.09.07-13.12.28:028][570]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2015.09.07-13.12.28:048][570]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2015.09.07-13.12.28:048][570]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2015.09.07-13.12.28:048][570]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2015.09.07-13.12.28:049][570]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.09.07-13.12.28:049][570]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.09.07-13.12.28:049][570]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.09.07-13.12.28:049][570]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.09.07-13.12.28:049][570]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.09.07-13.12.28:049][570]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.09.07-13.12.28:049][570]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.09.07-13.12.28:049][570]LogExit: Exiting.
-[2015.09.07-13.12.28:086][570]Log file closed, 09/07/15 16:12:28
+﻿[2015.09.07-19.49.26:048][  0]Log file open, 09/07/15 22:49:26
+[2015.09.07-19.49.26:048][  0]LogInit:Display: Running engine for game: MrFirstProject
+[2015.09.07-19.49.26:048][  0]LogInit:Display: RandInit(-172830133) SRandInit(-172830132).
+[2015.09.07-19.49.26:049][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.09.07-19.49.26:049][  0]LogStats: Stats thread started at 0.073367
+[2015.09.07-19.49.26:049][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.07-19.49.26:049][  0]LogInit: API Version: 2672455
+[2015.09.07-19.49.26:049][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.09.07-19.49.26:049][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.07-19.49.26:049][  0]LogInit: Build Configuration: Development
+[2015.09.07-19.49.26:049][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.07-19.49.26:049][  0]LogInit: Command line:  
+[2015.09.07-19.49.26:049][  0]LogInit: Base directory: E:/Developing/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.07-19.49.26:049][  0]LogInit: Rocket: 1
+[2015.09.07-19.49.26:060][  0]LogInit: Using libcurl 7.41.0
+[2015.09.07-19.49.26:060][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.07-19.49.26:060][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.07-19.49.26:060][  0]LogInit:  - other features:
+[2015.09.07-19.49.26:060][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.07-19.49.26:060][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.07-19.49.26:060][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.07-19.49.26:060][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.07-19.49.26:060][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.07-19.49.26:061][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.07-19.49.26:061][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.07-19.49.26:061][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.07-19.49.26:061][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.07-19.49.26:061][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.07-19.49.26:071][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.07-19.49.26:083][  0]LogInit: Object subsystem initialized
+[2015.09.07-19.49.26:086][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.07-19.49.26:086][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.07-19.49.26:099][  0]LogInit: Computer: FENIX-NOTEBOOK
+[2015.09.07-19.49.26:099][  0]LogInit: User: Johny
+[2015.09.07-19.49.26:099][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.09.07-19.49.26:099][  0]LogInit: High frequency timer resolution =2.208009 MHz
+[2015.09.07-19.49.26:100][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
+[2015.09.07-19.49.26:100][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.07-19.49.26:100][  0]LogMemory: Process Physical Memory: 51.86 MB used, 51.86 MB peak
+[2015.09.07-19.49.26:100][  0]LogMemory: Process Virtual Memory: 56.80 MB used, 56.80 MB peak
+[2015.09.07-19.49.26:100][  0]LogMemory: Physical Memory: 2977.69 MB used, 7924.48 MB total
+[2015.09.07-19.49.26:100][  0]LogMemory: Virtual Memory: 344.22 MB used, 134217728.00 MB total
+[2015.09.07-19.49.26:142][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2015.09.07-19.49.27:695][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Mobility Radeon HD 5000 Series (Feature Level 11_0)
+[2015.09.07-19.49.27:695][  0]LogD3D11RHI: Adapter has 1014MB of dedicated video memory, 0MB of dedicated system memory, and 3712MB of shared system memory, 1 output[s]
+[2015.09.07-19.49.27:696][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.07-19.49.27:696][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.09.07-19.49.27:698][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.07-19.49.27:698][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.09.07-19.49.27:698][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.07-19.49.27:704][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.07-19.49.27:704][  0]LogRHI: Texture pool is 709 MB (70% of 1014 MB)
+[2015.09.07-19.49.27:713][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.09.07-19.49.27:729][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Проекты UE4/MrFirstProject/Intermediate/Shaders/WorkingDirectory/5976/).
+[2015.09.07-19.49.27:729][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Проекты UE4/MrFirstProject/Intermediate/Shaders/tmp/DBCD67884A258BDDA64963B5E1A6660F/'.
+[2015.09.07-19.49.27:729][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.07-19.49.32:146][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.07-19.49.32:155][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.07-19.49.32:164][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.07-19.49.32:173][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.07-19.49.32:183][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.07-19.49.32:189][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.07-19.49.32:194][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.07-19.49.32:200][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.07-19.49.32:205][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.07-19.49.32:210][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.07-19.49.32:215][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.07-19.49.32:221][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.07-19.49.32:222][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.07-19.49.32:243][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.07-19.49.32:249][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.07-19.49.32:254][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.07-19.49.32:259][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.07-19.49.32:259][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.07-19.49.32:392][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.07-19.49.33:042][  0]LogDerivedDataCache: Loaded boot cache 0.65s 41MB C:/Users/Johny/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.07-19.49.33:042][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Johny/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.07-19.49.33:042][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Проекты UE4/MrFirstProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.07-19.49.33:042][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.07-19.49.33:042][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Проекты UE4/MrFirstProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.07-19.49.33:042][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.07-19.49.33:279][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.07-19.49.33:293][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Johny/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.07-19.49.35:094][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.07-19.49.35:100][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.07-19.49.35:303][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.07-19.49.35:303][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.07-19.49.35:893][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.07-19.49.53:118][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.07-19.49.53:503][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2015.09.07-19.49.53:798][  0]SourceControl: Info Source control is disabled
+[2015.09.07-19.49.53:908][  0]SourceControl: Info Source control is disabled
+[2015.09.07-19.49.53:922][  0]SourceControl: Info Source control is disabled
+[2015.09.07-19.49.53:937][  0]SourceControl: Info Source control is disabled
+[2015.09.07-19.49.54:620][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.07-19.49.54:737][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.09.07-19.49.54:737][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.09.07-19.49.54:871][  0]LogEngine: Initializing Engine...
+[2015.09.07-19.49.54:874][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.07-19.49.54:919][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.07-19.49.55:134][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.07-19.49.55:141][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.07-19.49.55:152][  0]LogInit: FAudioDevice initialized.
+[2015.09.07-19.49.55:184][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Johny/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.07-19.49.55:196][  0]LogInit: Texture streaming: Enabled
+[2015.09.07-19.49.55:206][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.07-19.49.55:206][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.07-19.49.55:206][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId acc850ee41f564ff878354b7b3a1f120|cf9063ea962f44dc9b342acb530fe232|618c7f8c-dafb-43b2-a445-f2cfd5f93e4d
+[2015.09.07-19.49.55:206][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.07-19.49.55:220][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.07-19.49.55:347][  0]LogInit: Transaction tracking system initialized
+[2015.09.07-19.49.55:396][  0]BlueprintLog: New page: Editor Load
+[2015.09.07-19.49.55:560][  0]LocalizationService: Info Localization service is disabled
+[2015.09.07-19.49.55:848][  0]LogConsoleResponse:Display: 
+[2015.09.07-19.49.56:588][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.07-19.49.57:124][  0]LogFileCache: Scanning file cache for directory 'E:/Проекты UE4/MrFirstProject/Content/' took 0.02s
+[2015.09.07-19.49.57:124][  0]SourceControl: Info Source control is disabled
+[2015.09.07-19.49.57:124][  0]Cmd: MAP LOAD FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProjectBP/Maps/FirstMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.07-19.49.57:125][  0]LightingResults: New page: Lighting Build
+[2015.09.07-19.49.57:132][  0]MapCheck: New page: Map Check
+[2015.09.07-19.49.57:132][  0]LightingResults: New page: Lighting Build
+[2015.09.07-19.49.57:170][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000999970E160
+[2015.09.07-19.49.59:633][  0]LogAIModule: Creating AISystem for world FirstMap
+[2015.09.07-19.49.59:639][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/MrFirstProjectBP/Maps/FirstMap.FirstMap:PersistentLevel.ShinobiRetsuden2_BGs_Sprite_64.RenderComponent)
+[2015.09.07-19.49.59:640][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/MrFirstProjectBP/Maps/FirstMap.FirstMap:PersistentLevel.Cube_7.StaticMeshComponent0)
+[2015.09.07-19.49.59:641][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.07-19.49.59:643][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.07-19.49.59:718][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.057ms to complete.
+[2015.09.07-19.49.59:718][  0]LogFileHelpers: Loading map 'FirstMap' took 2.594
+[2015.09.07-19.49.59:961][  0]LogCollectionManager: Loaded 0 collections in 0.003104 seconds
+[2015.09.07-19.50.00:007][  0]LogFileCache: Scanning file cache for directory 'E:/Проекты UE4/MrFirstProject/Saved/Collections/' took 0.01s
+[2015.09.07-19.50.00:007][  0]LogFileCache: Scanning file cache for directory 'E:/Проекты UE4/MrFirstProject/Content/Developers/Johny/Collections/' took 0.01s
+[2015.09.07-19.50.00:007][  0]LogFileCache: Scanning file cache for directory 'E:/Проекты UE4/MrFirstProject/Content/Collections/' took 0.01s
+[2015.09.07-19.50.00:007][  0]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 1867 classes and 333 folders.
+[2015.09.07-19.50.00:014][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2015.09.07-19.50.00:024][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.09.07-19.50.03:182][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.09.07-19.50.03:189][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2015.09.07-19.50.03:311][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.07-19.50.03:318][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.07-19.50.03:342][  0]LogLoad: Full Startup: 38.22 seconds (BP compile: 0.01 seconds)
+[2015.09.07-19.50.03:417][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.09.07-19.50.03:568][  0]LogRenderer: Reallocating scene render targets to support 932x456 (Frame:2).
+[2015.09.07-19.50.03:756][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2015.09.07-19.50.04:058][  3]LogAssetRegistry: Asset discovery search completed in 10.5666 seconds
+[2015.09.07-19.50.04:058][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2015.09.07-19.50.07:676][178]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2015.09.07-19.50.07:817][178]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
+[2015.09.07-19.50.08:026][178]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
+[2015.09.07-19.50.08:038][178]LogMaterial: 0.000233 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.07-19.50.08:068][178]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.07-19.50.12:855][237]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.09.07-19.50.12:855][237]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.07-19.50.12:855][237]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.09.07-19.55.19:910][406]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.09.07-19.56.02:363][674]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
+[2015.09.07-19.56.02:382][674]LogMaterial: 0.000207 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.07-19.56.02:408][674]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.07-19.56.06:552][882]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.09.07-19.56.06:552][882]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.07-19.56.06:552][882]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.09.07-19.56.15:044][327]LogMaterialEditor: Applying material Floor_1_Mat
+[2015.09.07-19.56.15:995][327]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
+[2015.09.07-19.56.16:034][327]LogMaterial: 0.000137 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.07-19.56.16:078][327]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
+[2015.09.07-19.56.16:139][327]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
+[2015.09.07-19.56.16:161][327]LogMaterial: 0.001108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.07-19.56.23:760][703]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
+[2015.09.07-19.56.23:771][703]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.07-19.56.23:800][703]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.07-19.56.25:825][806]LogMaterialEditor: Applying material Floor_1_Mat
+[2015.09.07-19.56.27:251][806]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
+[2015.09.07-19.56.27:289][806]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.07-19.56.27:330][806]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
+[2015.09.07-19.56.27:388][806]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
+[2015.09.07-19.56.27:410][806]LogMaterial: 0.001029 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.07-19.56.34:893][180]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.07-19.56.34:893][180]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.07-19.56.34:893][180]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.09.07-19.56.44:896][754]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
+[2015.09.07-19.56.44:906][754]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.07-19.56.44:937][754]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.07-19.56.47:630][899]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.09.07-19.56.47:630][899]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.07-19.56.47:630][899]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.09.07-19.56.57:053][374]LogMaterialEditor: Applying material Floor_1_Mat
+[2015.09.07-19.56.58:003][374]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
+[2015.09.07-19.56.58:042][374]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.07-19.56.58:071][374]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
+[2015.09.07-19.56.58:129][374]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
+[2015.09.07-19.56.58:150][374]LogMaterial: 0.001002 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.07-19.57.01:333][531]LogMaterialEditor: Saving and Compiling material Floor_1_Mat
+[2015.09.07-19.57.03:958][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/Floor_1_Mat" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1_Mat.uasset" SILENT=true
+[2015.09.07-19.57.04:000][531]LogSavePackage: Save=24.997633ms
+[2015.09.07-19.57.04:000][531]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Floor_1_Mat6865057D49F4C872E73873BD1B345856.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1_Mat.uasset'
+[2015.09.07-19.57.04:003][531]LogSavePackage: Total save time: 42.708613ms
+[2015.09.07-19.57.04:003][531]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Floor_1_Mat.uasset
+[2015.09.07-19.57.04:009][531]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.07-19.57.04:009][531]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.07-19.57.04:009][531]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.09.07-19.59.05:890][852]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.07-19.59.05:890][852]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.07-19.59.13:032][240]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.07-19.59.13:931][240]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 107 classes and 0 folders.
+[2015.09.07-20.02.53:274][773]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000099AEC02E80
+[2015.09.07-20.02.53:508][773]LogSavePackage: Save=174.511963ms
+[2015.09.07-20.02.53:508][773]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/FirstMap_Auto1778EDF584400B70A992B688DAD37DDC1.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Game/MrFirstProjectBP/Maps/FirstMap_Auto1.umap'
+[2015.09.07-20.02.53:509][773]LogSavePackage: Total save time: 205.683041ms
+[2015.09.07-20.02.53:509][773]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Game/MrFirstProjectBP/Maps/FirstMap_Auto1.umap
+[2015.09.07-20.02.53:513][773]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MrFirstProjectBP/Maps/FirstMap' took 0.331
+[2015.09.07-20.02.53:513][773]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.331
+[2015.09.07-20.02.53:522][773]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MrFirstProjectBP/Blueprints/ResHUD] ([1] browsable assets)...
+[2015.09.07-20.02.53:522][773]OBJ SavePackage: Finished generating thumbnails for package [/Game/MrFirstProjectBP/Blueprints/ResHUD]
+[2015.09.07-20.02.53:550][773]LogSavePackage: Save=24.791565ms
+[2015.09.07-20.02.53:550][773]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/ResHUD_Auto114659322495759286AA7808EC7F2ECAC.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Game/MrFirstProjectBP/Blueprints/ResHUD_Auto1.uasset'
+[2015.09.07-20.02.53:552][773]LogSavePackage: Total save time: 27.366735ms
+[2015.09.07-20.02.53:552][773]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Game/MrFirstProjectBP/Blueprints/ResHUD_Auto1.uasset
+[2015.09.07-20.02.53:552][773]LogFileHelpers: Auto-saving content packages took 0.038
+[2015.09.07-20.05.23:372][239]LogEditorTransaction: Undo Edit Size Rule
+[2015.09.07-20.05.23:745][254]Cmd: TRANSACTION UNDO
+[2015.09.07-20.05.23:745][254]LogEditorTransaction: Undo Edit Size Rule
+[2015.09.07-20.05.24:139][273]Cmd: TRANSACTION UNDO
+[2015.09.07-20.05.24:139][273]LogEditorTransaction: Undo Add Widget
+[2015.09.07-20.05.24:483][289]Cmd: TRANSACTION UNDO
+[2015.09.07-20.05.24:483][289]LogEditorTransaction: Undo Add Widget
+[2015.09.07-20.05.24:821][305]Cmd: TRANSACTION UNDO
+[2015.09.07-20.05.24:821][305]LogEditorTransaction: Undo Add Widget
+[2015.09.07-20.05.25:872][367]Cmd: TRANSACTION UNDO
+[2015.09.07-20.05.25:872][367]LogEditorTransaction: Undo Edit Vertical Alignment
+[2015.09.07-20.05.50:659][838]LogEditorTransaction: Undo Add Widget
+[2015.09.07-20.06.06:922][798]LogEditorTransaction: Undo Add Widget
+[2015.09.07-20.06.07:154][807]LogEditorTransaction: Undo Add Widget
+[2015.09.07-20.12.54:635][444]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MrFirstProjectBP/Maps/FirstMap' took 0.109
+[2015.09.07-20.12.54:647][444]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MrFirstProjectBP/Blueprints/ResHUD] ([1] browsable assets)...
+[2015.09.07-20.12.54:647][444]OBJ SavePackage: Finished generating thumbnails for package [/Game/MrFirstProjectBP/Blueprints/ResHUD]
+[2015.09.07-20.12.54:698][444]LogSavePackage: Save=48.726250ms
+[2015.09.07-20.12.54:698][444]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/ResHUD_Auto29A0411CE40E21FF5F7B5B8A60D42B525.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Game/MrFirstProjectBP/Blueprints/ResHUD_Auto2.uasset'
+[2015.09.07-20.12.54:700][444]LogSavePackage: Total save time: 50.805952ms
+[2015.09.07-20.12.54:700][444]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Saved/Autosaves/Game/MrFirstProjectBP/Blueprints/ResHUD_Auto2.uasset
+[2015.09.07-20.12.54:700][444]LogFileHelpers: Auto-saving content packages took 0.063
+[2015.09.07-20.14.42:066][480]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Johny\Downloads\Gold_texture.png)
+[2015.09.07-20.14.42:070][480]LogTexture:Display: Building textures: Gold_texture (BGRA8)
+[2015.09.07-20.14.42:080][480]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Johny\Downloads\Iron_texture.png)
+[2015.09.07-20.14.42:082][480]LogTexture:Display: Building textures: Iron_texture (BGRA8)
+[2015.09.07-20.14.42:092][480]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Johny\Downloads\Wood_texture.png)
+[2015.09.07-20.14.42:095][480]LogTexture:Display: Building textures: Wood_texture (BGRA8)
+[2015.09.07-20.14.45:166][527]LogSavePackage: Save=117.630409ms
+[2015.09.07-20.14.45:166][527]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/FirstMap0178BF49475C202D4A22A3A076D9F565.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProjectBP/Maps/FirstMap.umap'
+[2015.09.07-20.14.45:171][527]LogSavePackage: Total save time: 140.698250ms
+[2015.09.07-20.14.45:171][527]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProjectBP/Maps/FirstMap.umap
+[2015.09.07-20.14.45:245][527]LogFileHelpers: Saving map 'FirstMap' took 0.368
+[2015.09.07-20.14.45:260][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProjectBP/Blueprints/ResHUD" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProjectBP/Blueprints/ResHUD.uasset" SILENT=true
+[2015.09.07-20.14.45:286][527]LogSavePackage: Save=24.185137ms
+[2015.09.07-20.14.45:286][527]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/ResHUD5985E82948240D493DAA98BA578A02F9.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProjectBP/Blueprints/ResHUD.uasset'
+[2015.09.07-20.14.45:289][527]LogSavePackage: Total save time: 26.860852ms
+[2015.09.07-20.14.45:289][527]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProjectBP/Blueprints/ResHUD.uasset
+[2015.09.07-20.14.45:308][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/Gold_texture" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Gold_texture.uasset" SILENT=true
+[2015.09.07-20.14.45:358][527]LogSavePackage: Save=10.520337ms
+[2015.09.07-20.14.45:358][527]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Gold_textureE20EBCEC42FD126BD34B968DE5E667F0.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Gold_texture.uasset'
+[2015.09.07-20.14.45:360][527]LogSavePackage: Total save time: 13.168424ms
+[2015.09.07-20.14.45:360][527]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Gold_texture.uasset
+[2015.09.07-20.14.45:373][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/Iron_texture" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Iron_texture.uasset" SILENT=true
+[2015.09.07-20.14.45:385][527]LogSavePackage: Save=10.313817ms
+[2015.09.07-20.14.45:386][527]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Iron_textureA0CD41D1419C7CA62FEA82BB776425A6.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Iron_texture.uasset'
+[2015.09.07-20.14.45:388][527]LogSavePackage: Total save time: 13.054296ms
+[2015.09.07-20.14.45:388][527]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Iron_texture.uasset
+[2015.09.07-20.14.45:404][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProject/Textures/Wood_texture" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Wood_texture.uasset" SILENT=true
+[2015.09.07-20.14.45:416][527]LogSavePackage: Save=10.060647ms
+[2015.09.07-20.14.45:416][527]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/Wood_texture1D8ADBE04B631F204C9DD8A169F96F76.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Wood_texture.uasset'
+[2015.09.07-20.14.45:418][527]LogSavePackage: Total save time: 12.650762ms
+[2015.09.07-20.14.45:418][527]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProject/Textures/Wood_texture.uasset
+[2015.09.07-20.18.32:538][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrFirstProjectBP/Blueprints/ResHUD" FILE="../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProjectBP/Blueprints/ResHUD.uasset" SILENT=true
+[2015.09.07-20.18.32:579][629]LogSavePackage: Save=21.858606ms
+[2015.09.07-20.18.32:579][629]LogSavePackage: Moving '../../../../../../Проекты UE4/MrFirstProject/Saved/ResHUD5366CF5148C758ACEF68969A6B60F8AD.tmp' to '../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProjectBP/Blueprints/ResHUD.uasset'
+[2015.09.07-20.18.32:581][629]LogSavePackage: Total save time: 42.110790ms
+[2015.09.07-20.18.32:581][629]LogSavePackage:Warning: Finished SavePackage ../../../../../../Проекты UE4/MrFirstProject/Content/MrFirstProjectBP/Blueprints/ResHUD.uasset
+[2015.09.07-20.23.09:920][334]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
+[2015.09.07-20.23.10:061][334]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
+[2015.09.07-20.23.10:071][334]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.07-20.23.10:101][334]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.07-20.23.17:688][730]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.09.07-20.23.17:688][730]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.07-20.23.17:688][730]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.09.07-20.23.20:792][887]LogEditorTransaction: Undo Rename Node
+[2015.09.07-20.23.20:825][887]LogMaterial: Missing cached shader map for material Floor_1_Mat, compiling. 
+[2015.09.07-20.23.20:835][887]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.07-20.23.21:434][914]LogEditorTransaction: Undo Move Node
+[2015.09.07-20.23.21:459][914]LogMaterial: Missing cached 
